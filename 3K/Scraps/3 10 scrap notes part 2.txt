@@ -1,0 +1,58 @@
+#act {You have {.*}\% of your max bioplasm in storage.} {#if {%1 >= "74.65%"} {morph ant}}
+
+
+
+-----
+currently 75.86
+
+#act {You have {.*}\% of your max bioplasm in storage.} {#if {%1 >= "74.65%"} {say %1}}
+
+
+You say: 75.86
+
+
+
+#act {You have {.*}\% of your max bioplasm in storage.} {#if {%1 == 74.65%} {say %1}}
+
+
+nothing .. this is good
+
+
+#act {You have {.*}\% of your max bioplasm in storage.} {#if {%1 > 74.65%} {say %1}}
+
+did not work
+
+
+#act {You have {.*}\% of your max bioplasm in storage.} {#if {%1 >= 74.65%} {say %1}}
+
+
+did not work 
+
+
+#act {You have {.*}\% of your max bioplasm in storage.} {#if {%1 >= 74.65} {say %1}}
+
+
+You say: 75.86 
+it worked 
+
+
+#act {You have {.*}\% of your max bioplasm in storage.} {#if {%1 > 74.65} {say %1}}
+
+it worked 
+
+----
+
+#act {You have {.*}\% of your max bioplasm in storage.} {#if {%1 < 100} {say %1}}
+
+
+it worked 
+
+
+
+
+
+
+#act {You have {.*}\% of your max bioplasm in storage.} {#if {%1 < 20} {morph ant}}
+
+
+it should work 

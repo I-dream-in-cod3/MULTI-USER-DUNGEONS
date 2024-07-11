@@ -1,0 +1,11 @@
+vi  ~/.bashrc
+source ~/.bashrc
+
+eternal skills:
+continuity
+immunity
+eradication
+radiance
+
+
+(train continuity;(train immunity;(train eradication;(train radiance;

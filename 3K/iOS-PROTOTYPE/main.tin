@@ -1,0 +1,292 @@
+#ACTION {A Light Square (n,w)}
+{
+    n ;
+    n ;
+    n ;
+    n ;
+    n ;
+    n ;
+    n ;
+    w ;
+    w ;
+    w ;
+    w ;
+    w ;
+    w ;
+    w ;
+    kill human
+}
+
+#ACTION {A Light Square (w,n)}
+{
+    n ;
+    n ;
+    n ;
+    n ;
+    n ;
+    n ;
+    n ;
+    w ;
+    w ;
+    w ;
+    w ;
+    w ;
+    w ;
+    w ;
+    kill human
+}
+
+#ACTION {PP[2}
+{
+    vv;
+    vv;
+    vv ;
+    vv;
+    vv;
+    vv ;
+    vv;
+    vv;
+    vv ;
+    vv;
+    vv;
+    vv ;
+    morph ;
+    biocheck
+}
+
+#ACTION {The chaotic forces seeking control of you begin to wane, your control}
+{
+    relinquish
+}
+
+#ACTION {The exit '%1' is closest to town\.}
+{
+    %1
+}
+
+#ACTION {cracks open, and out crawls a}
+{
+    say Help me in battle!;
+    = assist
+}
+
+
+#ALIAS {biome}
+{
+    morph dragonfly;
+    50n50w27e9s
+}
+
+#ALIAS {ch1}
+{
+    n;
+    w;
+    n ;
+    n ;
+    e;
+    n
+}
+
+#ALIAS {ch2}
+{
+    ;
+    s;
+    w;
+    s;
+    s;
+    e;
+    s
+}
+
+#ALIAS {chess}
+{
+    ;
+    n;
+    w;
+    n ;
+    n ;
+    e;
+    n ;
+    enter ;
+    e ;
+    climb pipe ;
+    w ;
+    w ;
+    w ;
+    n ;
+    n ;
+    n ;
+    n
+}
+
+#ALIAS {chesse}
+{
+    n ;
+    w ;
+    n ;
+    w ;
+    n ;
+    w ;
+    n ;
+    w ;
+    n ;
+    w ;
+    n ;
+    w ;
+    n ;
+    w;
+    s ;
+    s ;
+    s ;
+    s ;
+    e ;
+    e ;
+    e ;
+    slide;
+    w;
+    vortex ;
+    s;
+    w;
+    s;
+    s;
+    e;
+    s
+}
+
+#ALIAS {f1}
+{
+    s;
+    w;
+    w;
+    n;
+    w;
+    w;
+    w
+}
+
+#ALIAS {f2}
+{
+    e;
+    e;
+    e;
+    s;
+    e ;
+    e ;
+    n
+}
+
+#ALIAS {lol}
+{
+    say lol
+}
+
+#ALIAS {sc1}
+{
+    n;
+    e ;
+    e ;
+    s;
+    e ;
+    e
+}
+
+#ALIAS {sc2}
+{
+    w;
+    w;
+    n;
+    w;
+    w;
+    s
+}
+
+#ALIAS {split}
+{
+    #split
+}
+
+#ALIAS {write}
+{
+    #write main.tin;
+    #showme saved to main.tin
+}
+
+#ALIAS {x}
+{
+    #end
+}
+
+
+#CONFIG {AUTO TAB} {5000}
+#CONFIG {BUFFER SIZE} {10000}
+#CONFIG {CHARSET} {BIG-5}
+#CONFIG {COLOR MODE} {TRUE}
+#CONFIG {COLOR PATCH} {OFF}
+#CONFIG {COMMAND COLOR} {\e[0;37m}
+#CONFIG {COMMAND ECHO} {ON}
+#CONFIG {CONNECT RETRY} {0.0}
+#CONFIG {HISTORY SIZE} {1000}
+#CONFIG {LOG MODE} {RAW}
+#CONFIG {MOUSE TRACKING} {ON}
+#CONFIG {PACKET PATCH}  {0.50}
+#CONFIG {PACKET PATCH} {AUTO OFF}
+#CONFIG {RANDOM SEED} {4002480189}
+#CONFIG {REPEAT CHAR} {z}
+#CONFIG {REPEAT ENTER} {On}
+#CONFIG {SCREEN READER} {OFF}
+#CONFIG {SCROLL LOCK} {ON}
+#CONFIG {SPEEDWALK} {ON}
+#CONFIG {TAB WIDTH} {8}
+#CONFIG {TELNET} {ON}
+#CONFIG {TINTIN CHAR} {#}
+#CONFIG {VERBATIM} {OFF}
+#CONFIG {VERBATIM CHAR} {\}
+#CONFIG {VERBOSE} {OFF}
+#CONFIG {WORDWRAP} {ON}
+
+#EVENT {PROGRAM START}
+{
+    #split;
+    #session 3K 3k.org 3000;
+    arx;
+    #textin localpass;
+    ktrig ON;
+    ktrig bioextract/swoop coins/say nice knowin ya chump!/biocheck/look/i;
+    look;
+    morph ant;
+    ;
+    dissipate on;
+    aug con;
+    thermotaxis heat;
+    adrenalize on;
+    clone;
+    = assist
+}
+
+#EVENT {SCROLLED MOUSE WHEEL DOWN}
+{
+     #buffer down 3
+}
+
+#EVENT {SCROLLED MOUSE WHEEL UP}
+{
+     #buffer up 3
+}
+
+
+#GAG {Cells blacken and die around your superheated regions!}
+#GAG {The searing heat that you are generating is damaging your cells!}
+
+#HIGHLIGHT {^You hit{|r} %1} {orange underscore} {5}
+
+#PATHDIR {d} {u} {32}
+#PATHDIR {e} {w} {2}
+#PATHDIR {n} {s} {1}
+#PATHDIR {ne} {sw} {3}
+#PATHDIR {nw} {se} {9}
+#PATHDIR {s} {n} {4}
+#PATHDIR {se} {nw} {6}
+#PATHDIR {sw} {ne} {12}
+#PATHDIR {u} {d} {16}
+#PATHDIR {w} {e} {8}
+
