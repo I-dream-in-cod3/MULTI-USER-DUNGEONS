@@ -1,0 +1,28 @@
+ zelligar = {n ;n ;w ;n ;nw ;n ;e ;e ;e ;s ;s ;kill golem ;;
+
+  search shelves ;get gloves ;;
+
+  n ;n ;w ;w ;w ;s ;get key ;;
+
+  n ;e ;e ;e ;s ;s ;e ;e ;e ;n ;e ;e ;e ;n ;n ;n ;n ;w ;w ;w ;w ;s ;s ;s ;s ;kill golem ;;
+
+  unlock door ;open door ;w ;get key ;;
+
+  e ;n ;n ;n ;n ;e ;e ;e ;e ;s ;s ;s ;s ;w ;w ;w ;s ;w ;w ;w ;n ;n ;w ;w ;n ;kill golem ;;
+
+  unlock door ;open door ;w ;w ;;
+
+  s ;s ;sw ;n ;w ;w ;w ;nw ;e ;e ;e ;e ;n ;ne ;e ;e ;e ;;
+
+  n ;;
+
+  s ;;
+
+  w ;w ;w ;sw ;s ;w ;w ;w ;w ;se ;s ;e ;e ;e ;ne ;n ;n ;e ;e ;s ;s ;w ;s ;se ;s ;e ;s ;s ;} 
+  #nop  --one of the souths is wrong but it still works
+  
+  
+  #nop note the quotes ->> in mushclient each element was actually a long string within quotes 
+  #nop ->>  not sure if 
+
+#nop removed quotes from each line 

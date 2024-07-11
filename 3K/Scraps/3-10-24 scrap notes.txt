@@ -1,0 +1,44 @@
+#act {You have %1 of your max bioplasm in storage.}{{say %1}}
+
+it is wrong see result:
+ 1 {say 74.65%}
+ 
+ 
+ 
+ #act {You have %1 of your max bioplasm in storage.}{say %1}
+ in the right direction
+ You say: 74.65%
+ 
+ 
+  #act {You have %1 of your max bioplasm in storage.}{#if }
+  
+  
+  
+  
+  #act {You have %1 of your max bioplasm in storage.} {#if {"%1" < "20%"} {morph ant}}
+  
+  does not work
+  
+  
+    #act {You have %1 of your max bioplasm in storage.} {#if {"%1" > "200%"} {morph ant}}
+works forcomparing 74 to 200?
+
+
+#act {You have {%1}% of your max bioplasm in storage.} {#if {%1 < 100 } {morph ant}}
+
+
+
+ #act {You have {%1}\% of your max bioplasm in storage.}{say %1}
+-------
+
+
+current bc was 74.65%
+
+#act {You have %1 of your max bioplasm in storage.} {#if {"%1" >= "74.65%"} {morph ant}}
+
+this works 
+
+
+    #act {You have %1 of your max bioplasm in storage.} {#if {"%1" > "20000%"} {morph ant}}
+	
+	but this works too????

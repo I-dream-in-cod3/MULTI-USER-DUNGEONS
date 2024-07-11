@@ -1,0 +1,75 @@
+Linux notes
+
+The /etc/profile File
+The /etc/profile contains Linux system wide environment and
+ other startup scripts. Usually 
+the default command line prompt is set in this file.
+
+
+Relative path movement can be done using
+
+cd ../../..
+
+or cd ../bin/ 
+etc. 
+literally
+cd ../etc/
+
+Note: you need to be in a subdirectory with the same parent dir
+
+
+0 = go to beginning probably similar to - but white space? idc rlly
+$ = go to end including white space if possible
+
+
+
+
+
+failed stuff 4/11/24
+root/tintin/tt/src/tt++ /root/work.tin   
+root/tintin/tt/src/tt++ /root/work.tin   
+/root/tintin/tt/src/tt++ /root/work.tin   
+/root/tintin/tt/src
+nohup /root/tintin/tt/src/tt++ /root/work.tin 
+
+
+run startup script without rebooting
+useful for testing 
+source ../etc/profile
+
+
+
+biome 3k:
+47e
+
+9s
+
+
+
+
+from nw orner, its 9s27e
+
+50n50w9s27e
+
+
+
+
+
+
+
+
+
+ideas:
+> make a tin file that is read when session starts 
+>  change aliases to write to that file as well
+
+
+
+
+
+
+
+
+
+
+____________
