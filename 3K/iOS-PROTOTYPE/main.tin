@@ -1,4 +1,4 @@
-#ACTION {A Light Square (n,w)}
+#notACTION {A Light Square (n,w)}
 {
     n ;
     n ;
@@ -17,7 +17,7 @@
     kill human
 }
 
-#ACTION {A Light Square (w,n)}
+#notACTION {A Light Square (w,n)}
 {
     n ;
     n ;
