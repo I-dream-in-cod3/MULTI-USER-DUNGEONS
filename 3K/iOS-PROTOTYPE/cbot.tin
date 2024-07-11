@@ -372,12 +372,16 @@ HIGHLIGHT {No tell history.} {Yellow blink underscore} {5}
 {
 ansi off;
 #unhighlight {{.*}}
+#HIGHLIGHT {Tell history:} {Yellow reverse underscore} {5} 
+#highlight {{[0-9][0-9]:[0-9][0-9]}} {yellow} ; #nop highlight each timestamp for tells
 }
 
 #nop restore yellow tell highlight
 #alias {tellow}
 {
 
+#highlight {{[0-9][0-9]:[0-9][0-9]}} {yellow} ; #nop highlight each timestamp for tells
+#HIGHLIGHT {Tell history:} {Yellow reverse underscore} {5} 
 #highlight {{[0-9][0-9]:[0-9][0-9]}} {yellow} ; #nop highlight each timestamp for tells
 
 }
