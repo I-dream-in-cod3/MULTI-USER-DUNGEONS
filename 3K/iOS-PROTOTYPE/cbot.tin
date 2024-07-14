@@ -364,7 +364,7 @@
 #GAG {The searing heat that you are generating is damaging your cells!}
 
 #HIGHLIGHT {^You attack} {Red blink underscore} {5}
-#HIGHLIGHT {^You hit{|r} %1} {red blink underscore} {5}
+#HIGHLIGHT {^You hit{|r} %1} {silver underscore} {5}
 #HIGHLIGHT {Tell history:} {Yellow reverse underscore} {5} 
 #HIGHLIGHT {No tell history.} {Yellow blink underscore} {5}
 #highlight {{[0-9][0-9]:[0-9][0-9]}} {yellow} ; #nop highlight each timestamp for tells
