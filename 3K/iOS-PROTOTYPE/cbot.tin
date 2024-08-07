@@ -99,8 +99,8 @@
 #ACTION {There is no human here\.}
 {
     east;
-    flow kill human
-#nop replace flow with delay then kill or something similar
+    flow kill human;
+#nop replace flow with delay then kill or something similar ;
 }
 
 #ACTION {There is one obvious exit: jump}
