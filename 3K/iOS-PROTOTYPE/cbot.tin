@@ -364,13 +364,16 @@
 #GAG {Cells blacken and die around your superheated regions!}
 #GAG {The searing heat that you are generating is damaging your cells!}
 
+
+#Nop HIGHLIGHT {^You hit{|r} %1} {light red underscore} {5} ;
+
 #HIGHLIGHT {^You attack} {Red blink underscore} {5}
-#HIGHLIGHT {^You hit{|r} %1} {light red underscore} {5}
+#HIGHLIGHT {^You hit{|r} %1} {silver underscore} {5}
 #HIGHLIGHT {Tell history:} {Yellow reverse underscore} {5} 
 #HIGHLIGHT {No tell history.} {Yellow blink underscore} {5}
 #highlight {{[0-9][0-9]:[0-9][0-9]}} {yellow} ; #nop highlight each timestamp for tells
 
-#nop alias to undo highlights ->> be more retro
+#nop alias to undo highlights ->> be more retro ;
 #alias {retro}
 {
 ansi off;
@@ -406,6 +409,14 @@ ansi off;
 #TICKER {xp} {xp} {10}
 #TICKER           {tellhist}  {tellhist}  {3}
 #TICKER {sk} {sk} {75}
+
+#nop turn off tellhist timer;
+#alias untick {#untick tellhist};
+
+
+#nop enable tellhist timer;
+#alias retick {#TICKER           {tellhist}  {tellhist}  {3}};
+
 
 #VARIABLE {InChess} {1}
 #VARIABLE {bioplasm} {86.18}
