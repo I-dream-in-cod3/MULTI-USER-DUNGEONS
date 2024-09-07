@@ -413,7 +413,10 @@ ansi off;
 #TICKER {Time} {#echo <acf>%t {Time:%I:%M:%S\nDate:%Y-%m-%d}} {10} ;
 
 #nop turn off tellhist timer;
-#alias untick {#untick tellhist};
+#alias untick {
+#untick tellhist;
+#untick Time;
+};
 
 
 #nop enable tellhist timer;
