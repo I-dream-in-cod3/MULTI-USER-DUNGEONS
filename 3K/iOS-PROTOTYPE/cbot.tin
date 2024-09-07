@@ -410,7 +410,7 @@ ansi off;
 #TICKER {xp} {xp} {10}
 #TICKER           {tellhist}  {tellhist}  {3}
 #TICKER {sk} {sk} {75}
-#TICKER {Time} {#echo {The current date is %t.} {%Y-%m-%d %H:%M:%S}} {10} ;
+#Nop #TICKER {Time} {#echo {The current date is %t.} {%Y-%m-%d %H:%M:%S}} {10} ;
 
 #nop turn off tellhist timer;
 #alias untick {#untick tellhist};
