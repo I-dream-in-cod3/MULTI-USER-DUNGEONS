@@ -416,11 +416,19 @@ ansi off;
 #alias untick {
 #untick tellhist;
 #untick Time;
+#untick xp;
+#untick sk;
 };
 
 
 #nop enable tellhist timer;
-#alias retick {#TICKER           {tellhist}  {tellhist}  {3}};
+#alias retick {
+
+#TICKER           {tellhist}  {tellhist}  {3};
+#TICKER {Time} {#echo <acf>%t {Time:%I:%M:%S\nDate:%Y-%m-%d}} {10} ;
+#TICKER {xp} {xp} {10};
+#TICKER {sk} {sk} {75};
+};
 
 
 #VARIABLE {InChess} {1}
