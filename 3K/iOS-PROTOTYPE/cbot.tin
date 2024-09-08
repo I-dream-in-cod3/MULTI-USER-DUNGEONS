@@ -407,10 +407,14 @@ ansi off;
 #SUBSTITUTE {GEE, what are we fighting then?} {STATUS: in combat} {5}
 
 #TICKER {line} {#split} {3}
-#TICKER {xp} {xp} {10}
 #TICKER           {tellhist}  {tellhist}  {3}
+
+#TICKER {Time} {#echo <acf>%t {            Time:%I:%M:%S\nDate:%Y-%m-%d\n\n}} {5} ;
+
+
+#TICKER {xp} {xp} {10}
+
 #TICKER {sk} {sk} {75}
-#TICKER {Time} {#echo <acf>%t {Time:%I:%M:%S\nDate:%Y-%m-%d}} {5} ;
 
 #nop turn off tellhist timer;
 #alias untick {
