@@ -409,7 +409,7 @@ ansi off;
 #TICKER {line} {#split} {3}
 #TICKER           {tellhist}  {tellhist}  {3}
 
-#TICKER {Time} {#echo <acf>%t {            Time:%I:%M:%S\nDate:%Y-%m-%d\n\n}} {5} ;
+#TICKER {Time} {#echo <acf>%t {\t\t\tTime:%I:%M:%S\nDate:%Y-%m-%d\n\n}} {5} ;
 
 
 #TICKER {xp} {xp} {10}
