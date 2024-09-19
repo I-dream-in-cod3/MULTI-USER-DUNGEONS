@@ -262,9 +262,17 @@
     }
 }
 
+#nop form to focus on when you have healing resources like bioplasm
 #ALIAS {myfo}
 {
     nickname myfo %1;
+    biocheck
+}
+
+#nop form for tanking and collecting bioplasm / healing
+#ALIAS {tankfo}
+{
+    nickname tankform %1;
     biocheck
 }
 
