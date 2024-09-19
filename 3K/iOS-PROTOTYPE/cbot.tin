@@ -126,7 +126,7 @@
     #showme {$bioplasm};
     #if {%1 < 10}
     {
-        morph ant
+        morph tankform
     };
     #else
     {
