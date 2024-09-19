@@ -126,7 +126,7 @@
     #showme {$bioplasm};
     #if {%1 < 10}
     {
-        morph tankform
+        morph tankfo
     };
     #else
     {
@@ -272,7 +272,7 @@
 #nop form for tanking and collecting bioplasm / healing
 #ALIAS {tankfo}
 {
-    nickname tankform %1;
+    nickname tankfo %1;
     biocheck
 }
 
