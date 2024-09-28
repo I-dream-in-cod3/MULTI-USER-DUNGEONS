@@ -216,7 +216,7 @@
 {
     chessr;
     east;
-    \quit
+ #delay {2} {\quit};
 }
 
 #ALIAS {chessr}
