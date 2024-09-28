@@ -212,6 +212,12 @@
     s
 }
 
+#ALIAS {quit}
+{
+    7w7ne
+    \quit
+}
+
 #ALIAS {chessr}
 {
     7w7n
