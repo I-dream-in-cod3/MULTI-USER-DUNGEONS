@@ -341,8 +341,10 @@
     ktrig ON;
     ktrig bioextract/swoop coins/say nice knowin ya chump!/biocheck/look/flow kill human;
     look;
+    morph tankfo;
     biocheck;
     #nop biocheck + change to non tank if safe see bc #nop above #nop retrace;
+    #nop above biocheck does not do anything with empty plasm container 
     dissipate on;
     aug str;
     thermotaxis heat;
