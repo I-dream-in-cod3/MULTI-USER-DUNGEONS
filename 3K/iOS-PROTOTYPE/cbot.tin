@@ -426,7 +426,7 @@ ansi off;
 #TICKER {line} {#split} {3}
 #TICKER           {tellhist}  {tellhist}  {3}
 
-#TICKER {Time} {#echo <acf>%t {\n\t\tTime:%I:%M:%S\tDate:%Y-%m-%d}} {5} ;
+#NOP TICKER {Time} {#echo <acf>%t {\n\t\tTime:%I:%M:%S\tDate:%Y-%m-%d}} {5} ;
 
 
 #TICKER {xp} {xp} {10}
@@ -436,7 +436,7 @@ ansi off;
 #nop turn off tellhist timer;
 #alias untick {
 #untick tellhist;
-#untick Time;
+#NOP untick Time;
 #untick xp;
 #untick sk;
 };
@@ -446,7 +446,7 @@ ansi off;
 #alias retick {
 
 #TICKER           {tellhist}  {tellhist}  {3};
-#TICKER {Time} {#echo <acf>%t {Time:%I:%M:%S\nDate:%Y-%m-%d}} {10} ;
+#NOP TICKER {Time} {#echo <acf>%t {Time:%I:%M:%S\nDate:%Y-%m-%d}} {10} ;
 #TICKER {xp} {xp} {10};
 #TICKER {sk} {sk} {75};
 };
