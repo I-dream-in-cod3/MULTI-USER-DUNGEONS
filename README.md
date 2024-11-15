@@ -5,7 +5,7 @@
 ## after cloning
 - set this alias in .bashrc:
   - alias git3k='sudo ./sync-3k-Repo-w-sudo.sh'
-- paste sync-3k-Repo-w-sudo.sh into home directory
+- use cp to copy sync-3k-Repo-w-sudo.sh into home directory
   - ie if user is ubuntu: cp /home/ubuntu/MULTI-USER-DUNGEONS/sync-3k-Repo-w-sudo.sh /home/ubuntu/ 
   - sudo chmod +x sync-3k-Repo-w-sudo.sh
 - Make file called localpass in home directory
