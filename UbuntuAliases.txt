@@ -1,0 +1,21 @@
+#paste everything below this at the bottom of a .bashrc file
+
+alias mm='tmux new-session -d -s cbot "tt++ cbot.tin"'
+
+alias n='tmux attach -t cbot'
+
+alias nn='tmux new-session -d -s cbot "tt++ cbot.tin" &&  tmux attach -t cbot'
+
+
+
+alias m='tt++ cbot.tin'
+alias tt='tt++'
+alias git3k='sudo ./sync-3k-Repo-w-sudo.sh'
+alias tkill='tmux kill-session'
+
+alias bashrc='sudo vim ~/.bashrc'
+
+alias startssh='sudo service ssh start'
+
+cd
+n
