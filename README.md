@@ -1,4 +1,5 @@
 # Setup
+- follow basic steps for installing tintin++
 - cd
 - git clone https://github.com/I-dream-in-cod3/MULTI-USER-DUNGEONS.git
 
