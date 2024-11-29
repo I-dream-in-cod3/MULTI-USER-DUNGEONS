@@ -108,7 +108,7 @@
 #if {$huntmode == "on"} {east;#delay {1} {kill human};} {#showme huntmode is $huntmode}; 
     
     
-#nop replace flow with delay then kill or something similar ;
+#nop replaced flow kill human ;
 }
 
 #ACTION {There is one obvious exit: jump}
