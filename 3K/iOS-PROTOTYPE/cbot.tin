@@ -1,6 +1,6 @@
 #nop
 
-#variable {huntmode} {on}
+#variable {huntmode} {"on"}
 
 #ACTION {A Light Square (n,w)}
 {
@@ -101,7 +101,7 @@
 #ACTION {There is no human here\.}
 {
 
-#if {$huntmode == on} {east;flow kill human;} {#showme failed}; 
+#if {$huntmode == "on"} {east;flow kill human;} {#showme failed true value is $huntmode}; 
     
     
 #nop replace flow with delay then kill or something similar ;
