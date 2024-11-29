@@ -105,7 +105,7 @@
 #ACTION {There is no human here\.}
 {
 
-#if {$huntmode == "on"} {east;flow kill human;} {#showme huntmode is $huntmode}; 
+#if {$huntmode == "on"} {east;#delay {1} {kill human};} {#showme huntmode is $huntmode}; 
     
     
 #nop replace flow with delay then kill or something similar ;
