@@ -1,5 +1,7 @@
 #nop
 
+#variable {huntmode} {on}
+
 #ACTION {A Light Square (n,w)}
 {
     n ;
