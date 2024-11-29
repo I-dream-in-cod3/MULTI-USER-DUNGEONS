@@ -100,8 +100,10 @@
 
 #ACTION {There is no human here\.}
 {
-    east;
-    flow kill human;
+
+#if {$huntmode == on} {east;flow kill human;}
+    
+    
 #nop replace flow with delay then kill or something similar ;
 }
 
