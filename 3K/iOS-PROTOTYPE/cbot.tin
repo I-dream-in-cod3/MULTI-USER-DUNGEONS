@@ -3,7 +3,7 @@
 #variable {huntmode} {"on"} ;
 
 #ALIAS {start} {#variable {huntmode} {"on"};looky };
-#ALIAS {stop} {#variable {huntmode} {"off"}};
+#ALIAS {stop} {#variable {huntmode} {"off"};#showme {huntmode is now turned:$huntmode}};
 
 
 #ACTION {A Light Square (n,w)}
