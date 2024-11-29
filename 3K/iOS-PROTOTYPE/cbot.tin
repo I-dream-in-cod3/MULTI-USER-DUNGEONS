@@ -2,7 +2,7 @@
 
 #variable {huntmode} {"on"} ;
 
-#ALIAS {start} {#variable {huntmode} {"on"}; };
+#ALIAS {start} {#variable {huntmode} {"on"};looky };
 #ALIAS {stop} {#variable {huntmode} {"off"}};
 
 
