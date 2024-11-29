@@ -1,6 +1,10 @@
 #nop
 
-#variable {huntmode} {"on"}
+#variable {huntmode} {"on"} ;
+
+#ALIAS {start} {#variable {huntmode} {"on"}; };
+#ALIAS {stop} {#variable {huntmode} {"off"}};
+
 
 #ACTION {A Light Square (n,w)}
 {
