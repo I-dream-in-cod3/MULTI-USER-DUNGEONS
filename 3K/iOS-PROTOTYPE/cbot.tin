@@ -23,8 +23,7 @@
     w ;
     w ;
     kill human
-}
-{1}
+} {1}
 
 #ACTION {A Light Square (w,n)}
 {
@@ -43,8 +42,7 @@
     w ;
     w ;
     kill human
-}
-{1}
+} {1}
 
 #ACTION {A {.*} Square}
 {
@@ -106,10 +104,9 @@
 {
 
 #if {$huntmode == "on"} {east;#delay {2} {kill human};} {#showme huntmode is $huntmode}; 
-    
-    
 #nop replaced flow kill human ;
-}
+
+} {9}
 
 #ACTION {There is one obvious exit: jump}
 {
