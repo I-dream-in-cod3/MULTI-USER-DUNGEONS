@@ -105,7 +105,7 @@
 #ACTION {There is no human here\.}
 {
 
-#if {$huntmode == "on"} {east;#delay {1} {kill human};} {#showme huntmode is $huntmode}; 
+#if {$huntmode == "on"} {east;#delay {2} {kill human};} {#showme huntmode is $huntmode}; 
     
     
 #nop replaced flow kill human ;
