@@ -387,8 +387,8 @@
 #GAG {The searing heat that you are generating is damaging your cells!}
 
 
-#Nop #HIGHLIGHT {^You hit{|r} %1} {light red underscore} {5} ;
-#HIGHLIGHT {^You hit{|r} %1} {silver underscore} {5} ;
+ #HIGHLIGHT {^You hit{|r} %1} {light red underscore} {5} ;
+#Nop #HIGHLIGHT {^You hit{|r} %1} {silver underscore} {5} ;
 
 
 #HIGHLIGHT {^You attack} {Red blink underscore} {5}
