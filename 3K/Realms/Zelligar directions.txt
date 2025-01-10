@@ -1,0 +1,10 @@
+#2 n;w;n;northwest;
+
+;n ;#3 east;#2 s;kill golem;
+
+
+search shelf;get gloves;#2 n;#3 west;south;get key
+
+n;#3 east;#2 s;#3 east;north;#3 east;#4 n;#4 w;#4 s;unlock door;open door;west;get key
+
+east;#4 north;#4 east;#4 south;#3 west;south;#3 west;#2 north;#2 west;north;unlock door;open door
