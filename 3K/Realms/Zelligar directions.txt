@@ -1,3 +1,7 @@
+ From Fantasy:  portal;12w;leave;3w;4n;enter
+ Return to Fantasy: leave;4s;3e;enter;12e;portal
+
+steps: work in progress
 #2 n;w;n;northwest;
 
 ;n ;#3 east;#2 s;kill golem;
