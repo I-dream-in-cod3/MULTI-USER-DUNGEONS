@@ -214,7 +214,7 @@
 
 #ALIAS {hotel2}
 {
-   s;out;out;w;s;2e;n;2w;2n;3w;vortex
+   s;out;out;w;s;2e;n;2w;2n;3w;vortex;
    ch2;
 }
 
