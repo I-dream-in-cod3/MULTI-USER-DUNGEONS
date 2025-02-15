@@ -54,6 +54,22 @@
     biocheck
 }
 
+
+
+#ACTION {ST[2}
+{
+    vv;
+    vv;
+    vv;
+    vv;
+    vv;
+    vv;
+    vv;
+    morph ;
+    biocheck
+}
+
+
 #ACTION {The chaotic forces seeking control of you begin to wane, your control}
 {
     relinquish
