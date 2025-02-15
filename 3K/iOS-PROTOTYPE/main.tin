@@ -78,6 +78,8 @@
 }
 
 
+
+
 #ALIAS {biome}
 {
     morph dragonfly;
@@ -182,10 +184,6 @@
     n
 }
 
-#ALIAS {lol}
-{
-    say lol
-}
 
 #ALIAS {sc1}
 {
@@ -206,6 +204,28 @@
     w;
     s
 }
+
+
+#ALIAS {hotel1}
+{
+    ch1;
+    ;enter;3e;2s;2e;s;2w;buy 5;theatre;e;enter;pull rug;n;  
+}
+
+#ALIAS {hotel2}
+{
+   s;out;out;w;s;2e;n;2w;2n;3w;vortex
+   ch2;
+}
+
+
+
+
+#ALIAS {lol}
+{
+    say lol
+}
+
 
 #ALIAS {split}
 {
