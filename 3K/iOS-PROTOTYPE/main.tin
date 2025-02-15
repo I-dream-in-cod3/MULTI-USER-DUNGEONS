@@ -218,6 +218,19 @@
    ch2;
 }
 
+#nop tree of life 
+ 
+ #ALIAS {tol1}
+{
+     ch1;enter;4w;embrace void;
+}
+
+#ALIAS {tol2}
+{
+    leave;w;3e;vortex;ch2;
+}
+
+
 
 
 
