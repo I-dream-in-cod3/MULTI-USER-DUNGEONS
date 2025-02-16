@@ -101,6 +101,10 @@
 }
 
 
+#ALIAS {b}
+{
+    nickname en %1;
+}
 
 
 #ALIAS {biome}
