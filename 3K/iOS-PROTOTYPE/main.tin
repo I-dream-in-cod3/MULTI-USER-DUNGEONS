@@ -101,11 +101,18 @@
 }
 
 
+#nop fighting targets
+#nop pick a target
+
 #ALIAS {b}
 {
     nickname en %1;
 }
 
+#ALIAS {k}
+{
+kill en;
+}
 
 #ALIAS {biome}
 {
