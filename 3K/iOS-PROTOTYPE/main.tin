@@ -17,6 +17,13 @@
     kill human
 }
 
+
+#ACTION {The Center of Town}
+{
+    nickname en human;
+}
+
+
 #notACTION {A Light Square (w,n)}
 {
     n ;
