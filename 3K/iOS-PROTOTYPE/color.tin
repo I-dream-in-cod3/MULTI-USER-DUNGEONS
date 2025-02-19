@@ -1,7 +1,10 @@
 #nop
 #class {color} {open};
 ansi on;       
-#HIGHLIGHT {No tell history.} {Yellow blink underscore} {5}                                       
+#nop HIGHLIGHT {No tell history.} {Yellow blink underscore} {5}                                       
+#HIGHLIGHT {No tell history.} {Reverse blink underscore} {5}                                       
+
+
 #HIGHLIGHT {Tell history:} {reverse Yellow underscore} {5}                                  
 #HIGHLIGHT {^You attack} {Red underscore} {5}                                          
 
