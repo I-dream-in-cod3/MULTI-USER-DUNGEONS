@@ -1,21 +1,3 @@
-#notACTION {A Light Square (n,w)}
-{
-    n ;
-    n ;
-    n ;
-    n ;
-    n ;
-    n ;
-    n ;
-    w ;
-    w ;
-    w ;
-    w ;
-    w ;
-    w ;
-    w ;
-    kill human
-}
 
 
 #ACTION {The Center of Town}
@@ -24,24 +6,6 @@
 }
 
 
-#notACTION {A Light Square (w,n)}
-{
-    n ;
-    n ;
-    n ;
-    n ;
-    n ;
-    n ;
-    n ;
-    w ;
-    w ;
-    w ;
-    w ;
-    w ;
-    w ;
-    w ;
-    kill human
-}
 
 #ACTION {PP[2}
 {
