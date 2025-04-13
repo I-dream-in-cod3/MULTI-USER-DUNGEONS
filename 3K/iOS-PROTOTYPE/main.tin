@@ -93,6 +93,12 @@
     = assist
 }
 
+#ALIAS {leet}
+{
+    #class leet kill;
+    #class leet read leetclass.tin
+}
+
 
 #ALIAS {myfo}
 {
