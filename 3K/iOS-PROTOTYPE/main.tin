@@ -99,6 +99,11 @@
     #class leet read leetclass.tin
 }
 
+#ALIAS {color}
+{
+ansi on;
+}
+
 
 #ALIAS {myfo}
 {
