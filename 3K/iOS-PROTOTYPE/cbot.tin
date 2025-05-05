@@ -4,7 +4,8 @@
 
 #ALIAS {start} {#variable {huntmode} {"on"};looky;retick;#showme {huntmode is now turned:$huntmode} };
 #ALIAS {stop} {#variable {huntmode} {"off"};untick;#showme {huntmode is now turned:$huntmode}};
-#ALIAS {st} {start};
+#ALIAS {mm} {start};
+#ALIAS {mmm} {\mm};
 
 #ACTION {A Light Square (n,w)}
 {
