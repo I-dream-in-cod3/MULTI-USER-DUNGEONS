@@ -281,7 +281,7 @@ stop;out;#delay {4} {start};
     #if {$InChess == 1}
     {
         #nop chessr;
-        kill human
+        #variable {huntmode} {"on"};kill human;
     }
 }
 
