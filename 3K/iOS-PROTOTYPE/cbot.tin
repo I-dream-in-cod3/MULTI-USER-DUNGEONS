@@ -280,8 +280,7 @@ stop;out;#delay {4} {start};
     #showme { InChess = $InChess};
     #if {$InChess == 1}
     {
-        #nop chessr;
-        #variable {huntmode} {"on"};kill human;
+     retick;#variable {huntmode} {"on"};kill human;
     }
 }
 
