@@ -366,11 +366,11 @@ stop;out;#delay {4} {start};
     morph tankfo;
     biocheck;
     #nop biocheck + change to non tank if safe see bc #nop above #nop retrace;
-    #nop above biocheck does not do anything with empty plasm container 
+    #nop above biocheck does not do anything with empty plasm container; 
     dissipate on;
     aug con;
-    thermotaxis heat;
-    adrenalize on;
+    #nop thermotaxis heat;
+    #nop adrenalize on;
     #delay {2} {clone};
     = assist;
     #nop color;
