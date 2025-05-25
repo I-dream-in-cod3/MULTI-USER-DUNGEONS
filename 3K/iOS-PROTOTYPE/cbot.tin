@@ -368,7 +368,7 @@ stop;out;#delay {4} {start};
     #nop biocheck + change to non tank if safe see bc #nop above #nop retrace;
     #nop above biocheck does not do anything with empty plasm container 
     dissipate on;
-    aug str;
+    aug con;
     thermotaxis heat;
     adrenalize on;
     #delay {2} {clone};
