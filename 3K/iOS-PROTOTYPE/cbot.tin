@@ -378,16 +378,6 @@ stop;out;#delay {4} {start};
     tellhist;
 }
 
-#EVENT {SCROLLED MOUSE WHEEL DOWN}
-{
-    #buffer down 3
-}
-
-#EVENT {SCROLLED MOUSE WHEEL UP}
-{
-    #buffer up 3
-}
-
 #EVENT {SESSION DISCONNECTED}
 {
 #END
