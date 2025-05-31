@@ -68,6 +68,7 @@ out;
     #class hotelmorph kill;
     #class hotelmorph read hotelmorph.tin
     nickname en zombie;
+    #unalias write;
 }
 
 #ALIAS {leet}
