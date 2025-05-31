@@ -250,6 +250,10 @@ stop;out;#delay {4} {start};
     = morph %1
 }
 
+#nop classes go here 
+
+
+
 #ALIAS {leet}
 {
     #class leet kill;
