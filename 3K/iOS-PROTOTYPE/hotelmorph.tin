@@ -23,7 +23,7 @@ end of the map;}
 
 #ACTION {Along a wall (w)}
 {
-8w;8s;
+8w;7s;
 } {1}
 
 #nop {
