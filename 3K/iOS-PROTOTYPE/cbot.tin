@@ -250,6 +250,12 @@ stop;out;#delay {4} {start};
     = morph %1
 }
 
+#ALIAS {leet}
+{
+    #class leet kill;
+    #class leet read leetclass.tin
+}
+
 #ALIAS {color}
 {
     #class color kill;
@@ -262,11 +268,7 @@ stop;out;#delay {4} {start};
     forms
 }
 
-#ALIAS {leet}
-{
-    #class leet kill;
-    #class leet read leetclass.tin
-}
+
 
 #ALIAS {lol}
 {
