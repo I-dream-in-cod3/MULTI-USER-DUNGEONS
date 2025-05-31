@@ -17,24 +17,42 @@ stop;out;#delay {4} {start};
 #nop zap does not work here for some reason - I think it gets eaten up by the triggers to leave COT
 }
 
-#ACTION {A Light Square (n,w)}
+#nop go to next spot;
+
+#ACTION {There is no zombie here\.}
 {
-    n ;
-    n ;
-    n ;
-    n ;
-    n ;
-    n ;
-    n ;
-    w ;
-    w ;
-    w ;
-    w ;
-    w ;
-    w ;
-    w ;
-    kill human
+east;
+}
+
+#nop go to next row;
+#ACTION {You cannot go east\.}
+{
+8w;north;
 } {1}
+
+
+#nop{
+end of the map;}
+
+#ACTION {Along a wall (w)}
+{
+8w;8s;
+} {1}
+
+#nop{
+7s so I can avoid entrance - get to mobs faster
+}
+
+
+
+
+
+#nop{
+line divider 
+----------
+}
+
+
 
 #ACTION {A Light Square (w,n)}
 {
@@ -124,17 +142,6 @@ stop;out;#delay {4} {start};
     jump
 }
 
-#ACTION {You cannot go east\.}
-{
-    w ;
-    w ;
-    w ;
-    w ;
-    w ;
-    w ;
-    w ;
-    s
-}
 
 #ACTION {You have {.*}\% of your max bioplasm in storage.}
 {
