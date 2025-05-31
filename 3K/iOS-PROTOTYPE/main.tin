@@ -55,6 +55,16 @@
     = assist
 }
 
+#nop classes go here;
+
+#nop hm= hotelmorph aka stepper for hotel transvylania;
+
+#ALIAS {hm}
+{
+    #class hotelmorph kill;
+    #class hotelmorph read hotelmorph.tin
+}
+
 #ALIAS {leet}
 {
     #class leet kill;
