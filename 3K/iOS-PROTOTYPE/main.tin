@@ -71,6 +71,8 @@
     #class leet read leetclass.tin
 }
 
+
+#nop the color is not intended for main.tin due to tickers and other automated settings
 #ALIAS {color}
 {
 ansi on;
