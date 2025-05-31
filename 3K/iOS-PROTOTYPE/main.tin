@@ -3,6 +3,10 @@
     nickname en human;
 }
 
+#ACTION {The Void (out)}
+{
+out;
+} 
 
 
 #ACTION {PP[2}
