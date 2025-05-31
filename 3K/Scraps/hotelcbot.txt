@@ -1,0 +1,99 @@
+#LOG: LOGGING OUTPUT TO 'hotelcbot.txt' FILESIZE: 0
+l
+
+Along a wall (w)                                               #-2-1-@
+                                                                 | |
+
+You stand on the outer wall of the dungeon.  A coldness passes over
+you as you stand here.  Groans from the past-living still echoes in
+this chamber.  You are barely able to see the cold stone upon which
+you stand.
+    There is one obvious exit: west
+A giant silver toaster.
+A zombie bell hop waiting to carry your things.
+HP:3747/4552  SP:106/76 ST:1705/1705 PP:1705/1705
+#log off
+#LOG: LOGGING OUTPUT TO 'hotelcbot.txt' FILESIZE: 668
+8w
+
+Along a wall (w,s,e)                                           #-2-2-@-1
+                                                                 | | |
+                                                                    -2
+
+A zombie cook looking for something to chop.
+HP:3477/4552  SP:106/76 ST:1705/1705 PP:1705/1705
+
+Along a wall (w,s,e)                                           #-1-2-@-1-1
+                                                                 | | | |
+                                                                    -1-
+                                                                     |
+                                                                    -1
+
+A zombie waiter offering drinks.
+A zombie bell hop waiting to carry your things.
+HP:3477/4552  SP:106/76 ST:1705/1705 PP:1705/1705
+
+Along a wall (w,s,e)                                           #-O-1-@-2-1-#
+                                                                 | | | | |
+                                                                    -1-
+                                                                     |
+                                                                    -1-
+                                                                     |
+
+A zombie bell hop waiting to carry your things.
+A zombie waiter offering drinks.
+HP:3477/4552  SP:106/76 ST:1705/1705 PP:1705/1705
+
+Along a wall (w,s,e)                                           #-1-O-@-2-2-#
+                                                                 | | | | |
+                                                                    -1-
+                                                                     |
+                                                                    -1-
+                                                                     |
+
+A zombie waiter offering drinks.
+HP:3477/4552  SP:106/76 ST:1705/1705 PP:1705/1705
+Along a wall (w,s,e)
+HP:3477/4552  SP:106/76 ST:1705/1705 PP:1705/1705
+Along a wall (w,s,e)
+A zombie waiter offering drinks.
+HP:3477/4552  SP:106/76 ST:1705/1705 PP:1705/1705
+Along a wall (w,s,e)
+HP:3477/4552  SP:106/76 ST:1705/1705 PP:1705/1705
+Along a wall (s,e)
+A zombie cook looking for something to chop.
+HP:3477/4552  SP:106/76 ST:1705/1705 PP:1705/1705
+A giant silver toaster clinks noisily into the room.
+l
+
+Along a wall (s,e)                                                   @-O-1-#
+                                                                     | | |
+                                                                     2-
+                                                                     |
+                                                                     1-
+                                                                     |
+
+You stand on the outer wall of the dungeon.  A coldness passes over
+you as you stand here.  Groans from the past-living still echoes in
+this chamber.  You are barely able to see the cold stone upon which
+you stand.
+    There are two obvious exits: south, east
+A giant silver toaster.
+A zombie cook looking for something to chop.
+HP:3473/4552  SP:106/76 ST:1705/1705 PP:1705/1705
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! There are UNREAD messages on the announcement board. !!
+!! Please type 'aread' to read them now.                !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+#log off
+
+
+1 > starting
+ go east
+2 > dead end > aka cannot go east >
+8w;north;
+3 > final stop > aka "Along a wall (w)"
+8w;8s; > maybe 7 south to avoid entrance - get to mobs faster
+Priority should be 1 to overwrite the dead end trigger - idk if thats why the other bot works
