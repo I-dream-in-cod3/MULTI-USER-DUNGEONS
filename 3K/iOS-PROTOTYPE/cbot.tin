@@ -389,6 +389,18 @@ stop;out;#delay {4} {start};
 #END
 }
 
+
+#EVENT {SCROLLED MOUSE WHEEL DOWN}
+{
+    #buffer down 3
+}
+
+#EVENT {SCROLLED MOUSE WHEEL UP}
+{
+    #buffer up 3
+}
+
+
 #GAG {Cells blacken and die around your superheated regions!}
 #GAG {The searing heat that you are generating is damaging your cells!}
 
