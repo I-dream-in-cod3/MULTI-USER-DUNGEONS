@@ -325,7 +325,12 @@ kill en;
     thermotaxis heat;
     adrenalize on;
     clone;
-    = assist
+    = assist;
+}
+
+#EVENT {SESSION DISCONNECTED}
+{
+#END
 }
 
 #EVENT {SCROLLED MOUSE WHEEL DOWN}
