@@ -1,0 +1,470 @@
+Installing TinTin++
+
+TinTin++ <http://tintin.mudhalla.net/index.php>
+Download <http://tintin.mudhalla.net/download.php>
+FAQ <http://tintin.mudhalla.net/faq.php>
+Features <http://tintin.mudhalla.net/features.php>
+Forum <https://github.com/scandum/tintin/discussions>
+Install
+Starting <http://tintin.mudhalla.net/starting.php>
+Links <http://tintin.mudhalla.net/links.php>
+Manual <http://tintin.mudhalla.net/manual>
+Scripts <http://tintin.mudhalla.net/scripts>
+Changes <http://tintin.mudhalla.net/news.php>
+Make a donation to the TinTin++ Mud Client developer <http://
+sourceforge.net/donate/index.php?group_id=137339>Download the TinTin++
+Mud Client <http://tintin.mudhalla.net/download.php>Join the TinTin++
+Mud Client Discord channel <https://discord.gg/gv7a37n>	
+
+
+  Installing WinTin++
+
+A windows installer is available for download <http://
+tintin.mudhalla.net/download.php> to install WinTin++, which exists of
+the PuTTY terminal and a TinTin++ binary. Wintin doesn't have shell
+capabilities, but otherwise it's an excellent TinTin++ port that works
+on Windows 95, 98, XP, Vista, 7, 8 and 10. For an interactive shell see
+the instructions for installing TinTin++ on Windows <#Windows>.
+ 
+
+
+  Compiling TinTin++
+
+  * wget https://github.com/scandum/tintin/releases/download/2.02.51/
+    tintin-2.02.51.tar.gz
+  * tar -zxvf tintin-2.02.51.tar.gz
+  * cd tt/src
+  * ./configure
+  * make install
+  * tt++
+
+If 'make install' does not work try 'sudo make install'. If you can't
+get make install to work launch the program using ./tt++ from the src
+directory.
+ 
+If tintin fails to compile you most likely need to install the zlib and/
+or pcre libraries. The gnutls library for ssl support is optional.
+ 
+
+
+  Snap
+
+If your system supports snap <https://snapcraft.io/tintin> you can
+install tintin using 'snap install tintin'.
+ 
+
+
+  Installing TinTin++
+
+  * *Alpine <#Alpine>*
+  * *Android <#Android>*
+  * *BSD <#BSD>*
+  * *Chromebook <#Chromebook>*
+  * *Debian <#Debian>*
+  * *Fedora <#Fedora>*
+  * *Fire OS <#FireOS>*
+  * *iOS <#iOS>*
+  * *Mandrake <#Mandrake>*
+  * *Mac OS X (OSX) 10.2 and higher <#OSX>*
+  * *Red Hat <#Red Hat>*
+  * *Slackware 8.0 and higher <#Slackware>*
+  * *Solaris <#Solaris>*
+  * *SuSe <#SuSe>*
+  * *Ubuntu <#Ubuntu>*
+  * *Windows 95 and higher <#Windows>*
+  * *Windows 10 and higher <#Windows10>*
+
+The following commands should install TinTin++ on Alpine Linux.
+ 
+
+  * mkdir tintin
+  * cd tintin
+  * apk update
+  * apk upgrade
+  * apk add build-base
+  * apk add zlib-dev
+  * apk add gnutls-dev
+  * apk add pcre-dev
+  * apk add make
+  * apk add wget
+  * wget https://github.com/scandum/tintin/releases/download/2.02.51/
+    tintin-2.02.51.tar.gz
+  * tar -zxvf tintin-2.02.51.tar.gz
+  * cd tt/src
+  * ./configure
+  * make install
+
+ 
+
+
+  Android
+
+The following commands should install TinTin++ on Android.
+ 
+
+  * Install Termux <https://termux.com/> (an Android terminal emulator
+    and Linux environment) using the Termux website (the Google play
+    store version works for Android 11+), then enter:
+  * apt update
+  * apt install tintin++
+  * tt++
+
+ 
+In case Termux doesn't provide the latest version the following commands
+should manually install TinTin++.
+ 
+
+  * apt install make
+  * apt install cmake
+  * apt install libgnutls
+  * apt install pcre
+  * apt install wget
+  * wget https://github.com/scandum/tintin/releases/download/2.02.51/
+    tintin-2.02.51.tar.gz
+  * tar -zxvf tintin-2.02.51.tar.gz
+  * cd tt/src
+  * ./configure
+  * make
+  * cp tt++ /data/data/com.termux/files/usr/bin/
+
+ 
+Make sure to read the Termux helpfile on using a touch keyboard
+<https://termux.com/touch-keyboard.html> for information about using
+control codes. You can, for example, use #macro {\cn} {n} to have
+TinTin++ execute 'n' when pressing volume-down and the 'n' key
+simultanously. Also checkout the getting started <http://
+tintin.mudhalla.net/starting.php#TERMUX> page.
+ 
+
+
+  BSD
+
+In order to compile the source code you need to have the zlib and pcre
+libraries installed.
+ 
+The following commands should install TinTin++ on OpenBSD 7.4.
+ 
+
+  * pkg_add pcre
+  * wget https://github.com/scandum/tintin/releases/download/2.02.51/
+    tintin-2.02.51.tar.gz
+  * tar -zxvf tintin-2.02.51.tar.gz
+  * cd tt/src
+  * ./configure CFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib
+  * make CFLAGS=-I/usr/local/include LDFLAGS=-L/usr/local/lib
+  * make install
+
+ 
+If this fails, see if you need to provide different -I and -L values
+using these two commands:
+
+  * pcre-config --cflags
+  * pcre-config --libs
+
+ 
+
+
+  Chromebook
+
+Follow the Android <#Android> installation instructions to install
+TinTin++ on Chromebook.
+ 
+
+
+  Debian
+
+The following commands should install TinTin++ on Debian.
+ 
+
+  * mkdir tintin
+  * cd tintin
+  * sudo apt-get install build-essential
+  * sudo apt-get install zlib1g-dev
+  * sudo apt-get install libpcre++-dev
+  * wget https://github.com/scandum/tintin/releases/download/2.02.51/
+    tintin-2.02.51.tar.gz
+  * tar -zxvf tintin-2.02.51.tar.gz
+  * cd tt/src
+  * ./configure
+  * sudo make install
+
+ 
+You can also install from the repository which typically gives you an
+older version.
+ 
+
+  * sudo apt-get install tintin++
+
+ 
+
+
+  Fedora
+
+The following commands should install TinTin++ on Fedora.
+ 
+
+  * mkdir tintin
+  * cd tintin
+  * sudo yum install make
+  * sudo yum install gcc
+  * sudo yum install zlib-devel
+  * sudo yum install pcre-devel
+  * wget https://github.com/scandum/tintin/releases/download/2.02.51/
+    tintin-2.02.51.tar.gz
+  * tar -zxvf tintin-2.02.51.tar.gz
+  * cd tt/src
+  * ./configure
+  * sudo make install
+
+ 
+It's also possible to install straight from the Fedora repository using
+'yum install tintin', though this may give you an out of date version.
+ 
+Execute: tt++ to launch TinTin++
+ 
+
+
+  Fire OS
+
+The following commands should install TinTin++ on Fire OS for the Kindle
+Fire and Amazon Fire HD tablets.
+ 
+
+  * Install the Google Appstore
+  * Follow the Android <#Android> installation instructions
+
+ 
+
+
+  iOS
+
+The following instructions install TinTin++ on iOS which is used by the
+iPhone and iPad.
+ 
+
+  * Install the iSH <https://ish.app/> shell emulator: https://ish.app
+
+Once your shell is running enter the following commands:
+
+  * apk update
+  * apk upgrade
+  * apk add build-base
+  * apk add zlib-dev
+  * apk add gnutls-dev
+  * apk add pcre-dev
+  * apk add make
+  * apk add wget
+  * apk add inetutils-syslogd
+  * apk add util-linux util-linux-dev
+  * mkdir tintin
+  * cd tintin
+  * wget https://github.com/scandum/tintin/releases/download/2.02.51/
+    tintin-2.02.51.tar.gz
+  * tar -zxvf tintin-2.02.51.tar.gz
+  * cd tt/src
+  * ./configure
+  * make install
+
+ 
+
+
+  Mandrake
+
+In order to compile the source code you may need to have the zlib and
+pcre libraries installed.
+ 
+
+
+  Mac OS X (OSX)
+
+The easiest way to install TinTin++ on Mac OS X is by installing the
+Homebrew package manager <https://brew.sh/> first. After you've
+installed Homebrew you can use:
+ 
+
+  * brew install tintin
+
+ 
+That's all that's needed. If you want to install from source try:
+ 
+
+  * brew install gcc
+  * brew install make
+  * brew install gnutls
+  * brew install pcre
+  * brew install zlib
+  * brew install wget
+  * wget https://github.com/scandum/tintin/releases/download/2.02.51/
+    tintin-2.02.51.tar.gz
+  * tar -zxvf tintin-2.02.51.tar.gz
+  * cd tt/src
+  * ./configure
+  * make install
+
+ 
+Execute: tt++ to launch TinTin++
+ 
+
+
+  Red Hat
+
+In order to compile the source code you may need to have the zlib and
+pcre libraries installed.
+ 
+
+
+  Slackware
+
+In order to compile the source code you may need to have the zlib and
+pcre libraries installed.
+ 
+
+
+  Solaris
+
+If you get symbol reference errors add -lxnet to the end of the CC
+variable in Makefile: CC = -Wall -lxnet
+ 
+
+
+  SuSe
+
+In order to compile the source code you may need to have the zlib and
+pcre libraries installed.
+ 
+
+
+  Ubuntu
+
+The following commands should install TinTin++ on Ubuntu.
+ 
+
+  * mkdir tintin
+  * cd tintin
+  * sudo apt-get update
+  * sudo apt-get install build-essential
+  * sudo apt-get build-dep tintin++
+  * wget https://github.com/scandum/tintin/releases/download/2.02.51/
+    tintin-2.02.51.tar.gz
+  * tar -zxvf tintin-2.02.51.tar.gz
+  * cd tt/src
+  * ./configure
+  * sudo make install
+
+ 
+If sudo apt-get build-dep tintin++ fails try installing developer
+libraries using:
+ 
+
+  * sudo apt-get install zlib1g-dev
+  * sudo apt-get install libpcre3-dev
+  * sudo apt-get install libgnutls28-dev
+
+ 
+Execute: tt++ to launch TinTin++
+ 
+
+
+  Windows 95 and higher
+
+An installer is available for download <http://tintin.mudhalla.net/
+download.php> to install WinTin++, which exists of the mintty terminal
+and the TinTin++ binary. WinTin doesn't have shell capabilities, but
+otherwise WinTin is an excellent TinTin++ port that works on Windows 95,
+98, XP, Vista, 7, 8, 10 and 11.
+ 
+WinTin is not to be confused with the less retro (or what some would
+call more graphical) wintin.net or wintin 95 mud client. For people who
+want an upgrade from wintin 95, the WinTin++ port is an excellent
+alternative supporting most of the same features, except for some wintin
+95 and wintin.net specific commands, as well as a lot of functionality
+that has been added to TinTin++ and hence is available in the WinTin
+port as well, like Perl Compatible Regular Expression support.
+ 
+In order to run WinTin or TinTin++ in a linux environment on Windows you
+need the Cygwin emulator which consists of two parts:
+ 
+
+ 1. A DLL (cygwin1.dll) which acts as a Linux emulation layer providing
+    substantial Linux API functionality.
+ 2. A collection of tools, which provide Linux look and feel.
+
+The Cygwin DLL works with all non-beta, non 'release candidate', ix86 32
+bit versions of Windows since Windows 95, with the exception of Windows CE.
+ 
+The size of Cygwin depends on how many packages you install, but
+averages around 200 megabytes while WinTin is only 5 MB. If this appeals
+to you, follow the instructions below to install Cygwin. Keep in mind
+that WinTin doesn't have shell capabilities which means the #system,
+#run, and #script command will not work. These commands can be used
+under Cygwin for sub windowing, ssh, sftp, playing sounds, sending
+emails, visiting websites, etc.
+ 
+
+  * Create the directory named 'Cygwin' in the root of your C drive: C:
+    \Cygwin.
+  * Download setup.exe from http://www.cygwin.com/setup.exe to the
+    Cygwin directory.
+  * Launch setup.exe and click next
+  * Choose 'install from internet' and click next
+  * Use the default values, click next
+  * Just use the default for the package directory, click next
+  * Set your internet connection, click next
+  * Select a download site, click next
+  * You must select the correct packages now, select the following:
+      o *Devel*: select gcc-core, make
+      o *Editors*: select your favorite text editor, pico is easy to use
+      o *Libs*: select libpcre-devel, zlib-devel, gnutls-devel
+      o *Net*: select inetutils
+      o *Net*: select openssh
+      o *System*: select util-linux
+      o *Web*: select wget
+  * Click next and wait for cygwin to finish installation.
+  * Download tintin.tar.gz (do not unzip it) to C:
+    \Cygwin\Home\YourUsername\
+  * Enter your shell (click the cygwin icon) and type:
+    tar -zxvf tintin*.tar.gz
+    cd tt/src/
+    ./configure
+    make
+    make install
+    tt++
+  * The last command should startup TinTin++.
+  * If for some reason you have trouble compiling TinTin++ you can
+    instead install WinTin++, next copy tt++.exe from the WinTin++
+    installation directory to the /bin directory in Cygwin.
+
+  * Enjoy
+
+
+  Windows 10 and higher
+
+Please see the section on Windows 95 and higher for installing Cygwin or
+WinTin++. As of Windows 10 it is possible to run TinTin++ using WSL
+(Windows Subsystem for Linux). The biggest advantage of WSL,
+particularly WSL 2, is performance. Installation instructions are as
+following:
+ 
+
+  * Use the search assistant to open the 'For Developers' setting and
+    enable 'Developer Mode'.
+  * Use the search assistant to open the 'Turn Windows features on or
+    off' setting and turn on 'Windows Subsystem for Linux'
+  * Use the search assistant to open the 'bash' application which should
+    tell you to visit the WSL Store <https://aka.ms/wslstore> where you
+    can download your favorite Linux distribution, with Ubuntu being the
+    most convenient one.
+  * Once Ubuntu is up and running use 'sudo apt-get update' and 'sudo
+    apt-get install tintin++' to install TinTin++.
+  * If you want to install the TinTin++ Beta version see the Ubuntu
+    <#Ubuntu> installation instructions for details.
+  * Download and use the Mintty WSL Bridge <http://tintin.mudhalla.net/
+    download/Mintty_WSL_Bridge.msi> installer to use Mintty as your WSL
+    Terminal instead of the Windows 10 Bash console.
+  * Edit .bashrc and add 'cd' at the end of the file to automatically
+    switch to your home directory when using Mintty WLC Bridge.
+  * If you want to be able to execute Windows programs within WSL have a
+    look at cbwin <https://github.com/xilun/cbwin>.
+
+ 
+
