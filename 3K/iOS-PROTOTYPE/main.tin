@@ -71,6 +71,12 @@ out;
     #unalias write;
 }
 
+#ALIAS {hm2}
+{
+    #class hotelmorph kill;
+    
+}
+
 #ALIAS {leet}
 {
     #class leet kill;
