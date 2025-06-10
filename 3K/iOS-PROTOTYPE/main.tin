@@ -70,6 +70,7 @@ out;
     nickname en zombie;
     #unalias write;
 #tick tiktok {kill zombie} {5};
+#tick TikTok2 {tellhist} {3};
 
 }
 
