@@ -289,7 +289,7 @@ kill en;
 
 #ALIAS {x}
 {
-    #end;
+    #zap;
 }
 
 #SUBSTITUTE {GEE, what are we fighting then?} {STATUS: in combat} {5}
