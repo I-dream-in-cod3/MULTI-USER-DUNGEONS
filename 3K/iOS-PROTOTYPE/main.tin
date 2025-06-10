@@ -292,6 +292,8 @@ kill en;
     #end
 }
 
+#SUBSTITUTE {GEE, what are we fighting then?} {STATUS: in combat} {5}
+
 
 #CONFIG {AUTO TAB} {5000}
 #CONFIG {BUFFER SIZE} {10000}
