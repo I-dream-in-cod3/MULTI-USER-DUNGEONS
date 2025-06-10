@@ -70,7 +70,7 @@ out;
     nickname en zombie;
     #unalias write;
 #tick tiktok {kill zombie} {5};
-#HIGHLIGHT {^You hit{|r} %1} {red blink underscore} {5};
+
 }
 
 #ALIAS {hm2}
