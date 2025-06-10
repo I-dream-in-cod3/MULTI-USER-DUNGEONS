@@ -69,8 +69,8 @@ out;
     #class hotelmorph read hotelmorph.tin;
     nickname en zombie;
     #unalias write;
-#tick tiktok {kill zombie} {5};
-#tick TikTok2 {tellhist} {3};
+#tick killzombie {kill zombie} {5};
+#tick tellhist {tellhist} {3};
 
 }
 
@@ -79,7 +79,8 @@ out;
     #class hotelmorph kill;
     7w7n;
     7s;
-#untick tiktok;
+#untick killzombie;
+#untick tellhist;
 
 }
 
