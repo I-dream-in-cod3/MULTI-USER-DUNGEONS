@@ -164,7 +164,7 @@ stop;out;#delay {4} {start};
     jump
 }
 
-#ALIAS {dt}
+#ALIAS {nm}
 {
 #system tmux detach;
 }
