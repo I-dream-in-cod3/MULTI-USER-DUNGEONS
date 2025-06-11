@@ -13,6 +13,11 @@
 east;
 }
 
+#ACTION {CF[5/}
+{
+    relinquish;
+}
+
 #nop go to next row;
 #ACTION {You cannot go east\.}
 {
