@@ -13,6 +13,23 @@
 east;
 }
 
+#ACTION {You have {.*}\% of your max bioplasm in storage.}
+{
+    #variable {bioplasm} {%1};
+    #showme {$bioplasm};
+    #if {%1 < 10}
+    {
+        morph tankfo
+    };
+    #else
+    {
+        #if {%1 >= 30}
+        {
+            morph myfo
+        }
+    }
+}
+
 #ACTION {CF[5/}
 {
     relinquish;
