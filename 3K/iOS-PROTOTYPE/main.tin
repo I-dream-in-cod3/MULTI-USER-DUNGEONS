@@ -364,6 +364,13 @@ kill en;
 
 #HIGHLIGHT {^You hit{|r} %1} {orange underscore} {5}
 
+
+#HIGHLIGHT {^You attack} {Red blink underscore} {5}
+#HIGHLIGHT {Tell history:} {Yellow reverse underscore} {5} 
+#HIGHLIGHT {No tell history.} {Yellow blink underscore} {5}
+#highlight {{[0-9][0-9]:[0-9][0-9]}} {yellow} ; #nop highlight each timestamp for tells
+
+
 #PATHDIR {d} {u} {32}
 #PATHDIR {e} {w} {2}
 #PATHDIR {n} {s} {1}
