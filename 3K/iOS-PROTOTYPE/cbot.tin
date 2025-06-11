@@ -12,7 +12,7 @@
 stop;out;#delay {4} {start};
 } 
 
-#nop{
+#nop {
 #nop it is supposed to be stop;out;#zap;
 #nop zap does not work here for some reason - I think it gets eaten up by the triggers to leave COT
 }
