@@ -71,7 +71,7 @@ out;
     #unalias write;
 #tick killzombie {kill zombie} {5};
 #tick tellhist {tellhist} {3};
-
+bio1;
 }
 
 #ALIAS {hm2}
