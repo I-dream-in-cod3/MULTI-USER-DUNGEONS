@@ -169,7 +169,6 @@ stop;out;#delay {4} {start};
 #system tmux detach;
 }
 
-#ALIAS {m}
 {
     #session 3K 3k.org 3000;
     arx;
