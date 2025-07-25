@@ -234,8 +234,12 @@ stop;out;#delay {4} {start};
 #ALIAS {quit}
 {
     chessr;
-    east;
- #delay {2} {\quit};
+    #nop east;
+#nop go east to make sure not in combat - dont delete save comment for later
+ chesse;
+nn;
+
+#nop delay {2} {\quit};
 }
 
 #ALIAS {chessr}
