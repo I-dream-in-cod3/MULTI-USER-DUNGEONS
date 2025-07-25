@@ -235,7 +235,7 @@ stop;out;#delay {4} {start};
 {
     chessr;
     #nop east;
-#nop go east to make sure not in combat - dont delete save comment for later
+#nop go east to make sure not in combat - dont delete save comment for later;
  chesse;
 nn;
 
