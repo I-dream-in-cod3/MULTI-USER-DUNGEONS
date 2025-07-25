@@ -239,7 +239,7 @@ chessr;
 #nop go east to make sure not in combat - dont delete save comment for later;
  chesse;
 nn;
-
+deposit all;
 #nop delay {2} {\quit};
 }
 
