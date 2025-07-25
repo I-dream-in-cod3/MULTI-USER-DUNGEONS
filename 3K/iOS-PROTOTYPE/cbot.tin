@@ -233,7 +233,8 @@ stop;out;#delay {4} {start};
 
 #ALIAS {quit}
 {
-    chessr;
+    #unACTION {The Center of Town}
+chessr;
     #nop east;
 #nop go east to make sure not in combat - dont delete save comment for later;
  chesse;
