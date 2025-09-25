@@ -9,7 +9,7 @@
 
 #ACTION {The Void (out)}
 {
-stop;out;#delay {4} {start};
+stop;out;
 } 
 
 #nop {
