@@ -9,7 +9,9 @@
 
 #ACTION {The Void (out)}
 {
-stop;out;
+#variable {InChess} {0};
+stop;
+out;
 } 
 
 #nop {
