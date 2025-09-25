@@ -16,7 +16,8 @@ out;
 
 #nop {
 #nop it is supposed to be stop;out;#zap;
-#nop zap does not work here for some reason - I think it gets eaten up by the triggers to leave COT
+#nop zap does not work here for some reason - I think it gets eaten up by the triggers to leave COT;
+#nop potential issue: exiting the void returns to the dungeon and attacks the first mob;
 }
 
 #ACTION {A Light Square (n,w)}
