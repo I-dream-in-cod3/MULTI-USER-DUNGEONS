@@ -424,7 +424,7 @@ out;
 
 #HIGHLIGHT {^You attack} {Red blink underscore} {5}
 #HIGHLIGHT {Tell history:} {Yellow reverse underscore} {5} 
-#HIGHLIGHT {No tell history.} {Yellow blink underscore} {5}
+#HIGHLIGHT {No tell history.} {Reverse Violet blink underscore} {5}
 #highlight {{[0-9][0-9]:[0-9][0-9]}} {yellow} ; #nop highlight each timestamp for tells
 
 #nop alias to undo highlights ->> be more retro ;
@@ -490,3 +490,4 @@ ansi off;
 
 #VARIABLE {InChess} {1}
 #VARIABLE {bioplasm} {86.18}
+
