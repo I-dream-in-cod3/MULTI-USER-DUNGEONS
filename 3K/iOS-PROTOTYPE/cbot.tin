@@ -276,6 +276,12 @@ out;
     #class color read color.tin
 }
 
+#ALIAS {chessbank}
+{
+    #class chessbank kill;
+    #class chessbank read ChessBankClass.tin;
+}
+
 #ALIAS {fo}
 {
     form;
