@@ -1,0 +1,18 @@
+#class {chessbank} {open};
+
+#UNACTION {A Light Square (n,w)};
+
+#UNACTION {A Light Square (w,n)};
+
+#UNACTION {A {.*} Square};
+
+#UNACTION {The Center of Town};
+
+#UNACTION {You cannot go east\.};
+
+#UNACTION {There is one obvious exit: jump};
+
+#nop replace stop alias with individual code
+stop;
+
+chesse;
