@@ -13,6 +13,12 @@ untick;
 afk;
 }
 
+#if {$huntmode == "off"}
+{
+#showme {huntmode is already turned $huntmode};
+}
+
+
 };
 #ALIAS {mm} {start};
 #ALIAS {mmm} {\mm};
@@ -503,5 +509,6 @@ ansi off;
 
 #VARIABLE {InChess} {1}
 #VARIABLE {bioplasm} {86.18}
+
 
 
