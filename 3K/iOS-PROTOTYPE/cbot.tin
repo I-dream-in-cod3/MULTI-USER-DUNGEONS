@@ -3,7 +3,17 @@
 #variable {huntmode} {"on"} ;
 
 #ALIAS {start} {#variable {huntmode} {"on"};looky;retick;#showme {huntmode is now turned:$huntmode} };
-#ALIAS {stop} {#variable {huntmode} {"off"};untick;#showme {huntmode is now turned:$huntmode}};
+#ALIAS {stop} {
+
+#if {$huntmode == "on"}
+{
+#variable {huntmode} {"off"};
+untick;
+#showme {huntmode is now turned:$huntmode};
+afk;
+}
+
+};
 #ALIAS {mm} {start};
 #ALIAS {mmm} {\mm};
 
@@ -493,4 +503,5 @@ ansi off;
 
 #VARIABLE {InChess} {1}
 #VARIABLE {bioplasm} {86.18}
+
 
