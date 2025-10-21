@@ -9,6 +9,12 @@
 #showme {huntmode is now turned:$huntmode}; 
 }
 
+
+#if {$huntmode == "on"}
+{
+#showme {huntmode is already turned $huntmode};
+}
+
 };
 
 #ALIAS {stop} {
