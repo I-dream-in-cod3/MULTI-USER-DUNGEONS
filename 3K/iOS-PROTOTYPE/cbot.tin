@@ -2,7 +2,15 @@
 
 #variable {huntmode} {"on"} ;
 
-#ALIAS {start} {#variable {huntmode} {"on"};looky;retick;#showme {huntmode is now turned:$huntmode} };
+#ALIAS {start} {
+
+#if {$huntmode == "off"}{
+#variable {huntmode} {"on"};looky;retick;
+#showme {huntmode is now turned:$huntmode}; 
+}
+
+};
+
 #ALIAS {stop} {
 
 #if {$huntmode == "on"}
