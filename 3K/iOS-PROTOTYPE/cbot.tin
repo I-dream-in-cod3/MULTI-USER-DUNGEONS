@@ -275,6 +275,20 @@ out;
 
 }
 
+#ALIAS {bank}
+{
+		stop;
+    #unACTION {The Center of Town};
+	  chessr;
+    #nop east;
+	  #nop go east to make sure not in combat - dont delete save comment for later;
+    chesse;
+		nn;
+		deposit all;
+		#delay {2} {x};
+
+}
+
 #ALIAS {chessr}
 {
     7w7n
