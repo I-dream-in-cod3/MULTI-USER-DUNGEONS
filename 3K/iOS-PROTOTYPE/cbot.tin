@@ -285,8 +285,8 @@ out;
     chesse;
 		nn;
 		deposit all;
-		#nop delay {2} {x};
-
+		south;
+		south;
 }
 
 #ALIAS {chessr}
@@ -388,7 +388,8 @@ out;
 
 #ALIAS {x}
 {
-    #zap
+  bank;  
+	#delay{2}{#zap};
 }
 
 
