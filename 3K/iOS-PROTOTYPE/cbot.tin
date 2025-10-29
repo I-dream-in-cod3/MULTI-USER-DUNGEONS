@@ -388,7 +388,7 @@ out;
 
 #ALIAS {x}
 {
-	#delay{2}{#zap};
+	#zap;
 }
 
 
