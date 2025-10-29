@@ -388,7 +388,6 @@ out;
 
 #ALIAS {x}
 {
-  bank;  
 	#delay{2}{#zap};
 }
 
