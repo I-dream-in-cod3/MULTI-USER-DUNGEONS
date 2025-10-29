@@ -1,8 +1,8 @@
 #class {leet} {open};
 
 ansi off;                                                                        
-#HIGHLIGHT {No tell history.} {Yellow blink underscore} {5}                                       
-#HIGHLIGHT {Tell history:} {reverse Yellow underscore} {5}                                  
+#HIGHLIGHT {No tell history.} {Reverse blink underscore} {5}
+#HIGHLIGHT {Tell history:} {reverse blink underscore} {5}                                  
 #HIGHLIGHT {^You attack} {Red blink underscore} {5}                                           
 #HIGHLIGHT {^You hit{|r} %1} {red blink underscore} {5}                                       
                                                             
