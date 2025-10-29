@@ -285,7 +285,7 @@ out;
     chesse;
 		nn;
 		deposit all;
-		#delay {2} {x};
+		#nop delay {2} {x};
 
 }
 
