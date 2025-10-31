@@ -470,7 +470,7 @@ out;
 
 
 #HIGHLIGHT {^You attack} {Red blink underscore} {5}
-#HIGHLIGHT {^You savagely attack} {Red blink underscore} {5}
+#HIGHLIGHT {^You savagely attack{|r} %1} {Red blink underscore} {5}
 
 #HIGHLIGHT {Tell history:} {Yellow reverse underscore} {5} 
 #HIGHLIGHT {No tell history.} {Reverse blink underscore} {5}
