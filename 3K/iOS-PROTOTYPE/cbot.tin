@@ -12,8 +12,9 @@
 
 #if {$huntmode == "on"}
 {
+
 #showme {huntmode is already turned $huntmode};
-#system echo huntmode is already turned $huntmode;
+
 }
 
 };
@@ -30,8 +31,9 @@ afk;
 
 #if {$huntmode == "off"}
 {
+
 #showme {huntmode is already turned $huntmode};
-#system echo huntmode is already turned $huntmode;
+
 }
 
 
@@ -542,6 +544,7 @@ ansi off;
 
 #VARIABLE {InChess} {1}
 #VARIABLE {bioplasm} {86.18}
+
 
 
 
