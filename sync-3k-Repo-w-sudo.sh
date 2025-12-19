@@ -11,6 +11,8 @@ git pull origin main
 #go to home directory
 cd /home/ubuntu/
 
+#if you don't specify specific folder cd goes to the default directory for root user ie /root not /home/user or /home/patrick/ etc
+
 #copy .tin files to home directory
 cp /home/ubuntu/MULTI-USER-DUNGEONS/3K/iOS-PROTOTYPE/cbot.tin cbot.tin
 cp /home/ubuntu/MULTI-USER-DUNGEONS/3K/iOS-PROTOTYPE/color.tin color.tin
