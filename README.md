@@ -6,7 +6,7 @@
   
 # If current user is not 'ubuntu'
 - follow basic steps for installing tintin++ on Ubuntu
-- mkdir /home/ubuntu/
+- sudo mkdir /home/ubuntu/
 - cd /home/ubuntu/
 - git clone https://github.com/I-dream-in-cod3/MULTI-USER-DUNGEONS.git
 
