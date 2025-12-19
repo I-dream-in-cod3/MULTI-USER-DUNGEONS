@@ -12,8 +12,8 @@ git pull origin main
 cd /home/ubuntu/
 
 #copy .tin files to home directory
-cp /home/ubuntu/MULTI-USER-DUNGEONS/3K/iOS-PROTOTYPE/cbot.tin cbot.tin
-cp /home/ubuntu/MULTI-USER-DUNGEONS/3K/iOS-PROTOTYPE/color.tin color.tin
-cp /home/ubuntu/MULTI-USER-DUNGEONS/3K/iOS-PROTOTYPE/main.tin main.tin
-cp /home/ubuntu/MULTI-USER-DUNGEONS/3K/iOS-PROTOTYPE/leetclass.tin leetclass.tin
-cp /home/ubuntu/MULTI-USER-DUNGEONS/3K/iOS-PROTOTYPE/hotelmorph.tin hotelmorph.tin
+cp /home/$USER/MULTI-USER-DUNGEONS/3K/iOS-PROTOTYPE/cbot.tin cbot.tin
+cp /home/$USER/MULTI-USER-DUNGEONS/3K/iOS-PROTOTYPE/color.tin color.tin
+cp /home/$USER/MULTI-USER-DUNGEONS/3K/iOS-PROTOTYPE/main.tin main.tin
+cp /home/$USER/MULTI-USER-DUNGEONS/3K/iOS-PROTOTYPE/leetclass.tin leetclass.tin
+cp /home/$USER/MULTI-USER-DUNGEONS/3K/iOS-PROTOTYPE/hotelmorph.tin hotelmorph.tin
