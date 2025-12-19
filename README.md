@@ -7,9 +7,8 @@
 - set this alias in .bashrc:
   - alias git3k='sudo ./sync-3k-Repo-w-sudo.sh'
 - use cp to copy sync-3k-Repo-w-sudo.sh into home directory
-  - try using variable: cp /home/$USER/MULTI-USER-DUNGEONS/sync-3k-Repo-w-sudo.sh /home/$USER/ 
-- sudo chmod +x sync-3k-Repo-w-sudo.sh
-- clone repo on a nominal "root" directory home/root -($USER = root when running script instead of copying and pasting)
+  - ie if user is ubuntu: cp /home/ubuntu/MULTI-USER-DUNGEONS/sync-3k-Repo-w-sudo.sh /home/ubuntu/
+  - sudo chmod +x sync-3k-Repo-w-sudo.sh
 - Make file called localpass in home directory
 - in home directory use git3k command ->> so you can  update local repo or undo local edits at any time
 ## Editing The Main Files
