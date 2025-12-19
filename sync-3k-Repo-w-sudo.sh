@@ -9,7 +9,8 @@ cd MULTI-USER-DUNGEONS/
 git pull origin main
 
 #go to home directory
-cd /home/ubuntu/
+cd 
+#/home/ubuntu/
 
 #copy .tin files to home directory
 cp /home/$USER/MULTI-USER-DUNGEONS/3K/iOS-PROTOTYPE/cbot.tin cbot.tin
