@@ -7,8 +7,12 @@
 # If current user is not 'ubuntu'
 - follow basic steps for installing tintin++ on Ubuntu
 - sudo mkdir /home/ubuntu/
+  - Everything must be ran form this directory so set this alias:
+    - alias ubuntu='cd /home/ubuntu/'
 - cd /home/ubuntu/
 - sudo git clone https://github.com/I-dream-in-cod3/MULTI-USER-DUNGEONS.git
+- give folder ownership too: sudo chown username /home/ubuntu/
+
 
 
 ## after cloning
@@ -19,7 +23,6 @@
   - sudo chmod +x sync-3k-Repo-w-sudo.sh
 - Make file called localpass in home directory
 - in home directory use git3k command ->> so you can  update local repo or undo local edits at any time
-- give folder ownership too: sudo chown username /home/ubuntu/
 
 
 
