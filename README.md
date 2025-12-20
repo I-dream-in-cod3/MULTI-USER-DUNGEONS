@@ -19,6 +19,10 @@
   - sudo chmod +x sync-3k-Repo-w-sudo.sh
 - Make file called localpass in home directory
 - in home directory use git3k command ->> so you can  update local repo or undo local edits at any time
+- give folder ownership too: sudo chown username /home/ubuntu/
+
+
+
 ## Editing The Main Files
 - every file is based of the scripts I originally made on my iphone - which was soley used for 3kingdoms at the time
 - Main 3 Kingdoms stuff: https://github.com/I-dream-in-cod3/MULTI-USER-DUNGEONS/tree/main/3K/iOS-PROTOTYPE
