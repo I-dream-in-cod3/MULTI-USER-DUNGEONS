@@ -12,6 +12,8 @@
 - cd /home/ubuntu/
 - sudo git clone https://github.com/I-dream-in-cod3/MULTI-USER-DUNGEONS.git
 - give folder ownership too: sudo chown username /home/ubuntu/
+  - give files ownership too: sudo chown $USER filename
+ 
 
 
 
