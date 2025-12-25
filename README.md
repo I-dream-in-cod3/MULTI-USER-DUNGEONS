@@ -1,5 +1,6 @@
 # Setup
-- follow basic steps for installing tintin++ on Ubuntu
+- follow basic steps for installing tintin++ on your desired machine. IDK if it works on WSL or wintin. See steps here:
+  - https://tintin.mudhalla.net/install.php
 - cd
 - git clone https://github.com/I-dream-in-cod3/MULTI-USER-DUNGEONS.git
 
