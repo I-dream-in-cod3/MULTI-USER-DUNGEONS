@@ -8,7 +8,7 @@
 - follow basic steps for installing tintin++ on Ubuntu
 - sudo mkdir /home/ubuntu/
   - Everything must be ran form this directory so set this alias:
-    - alias ubuntu='cd /home/ubuntu/'
+    - alias u='cd /home/ubuntu/'
 - cd /home/ubuntu/
 - sudo git clone https://github.com/I-dream-in-cod3/MULTI-USER-DUNGEONS.git
 - give folder ownership too: sudo chown username /home/ubuntu/
