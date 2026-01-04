@@ -63,6 +63,11 @@ out;
 
 #nop hm= hotelmorph aka stepper for hotel transvylania;
 
+#ALIAS {nm}
+{
+#system tmux detach;
+}
+
 #ALIAS {hm}
 {
     #class hotelmorph kill;
