@@ -27,7 +27,7 @@ Main files
 ## My plan ->> tentative order
 - 0. Simple test plan >> I want to have tintin actually working on my machine ✓
   1. Low priority Consider Transfer some simple botting stuff to wintin ✓
-  2. briefly try inix setup >> skip if taking too long
+  2. briefly try inix setup >> skip if taking too long  ✓
   3. changeling  non bot ktrig
   4. classes   >> leet color mode ✓ >> color mode ✓  
   6. mapping
@@ -106,4 +106,5 @@ Features wishlist
 - highlight triggers for my favorite emotes ->> ie toaste block emote
 - Scandums sample Scripts: see [here](https://tintin.mudhalla.net/scripts/)
 - tmux handoff
+
 - mosh ssh
