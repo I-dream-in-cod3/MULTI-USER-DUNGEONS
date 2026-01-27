@@ -1,7 +1,7 @@
 #nop
 #alias {time}
 {
- #system tmux set -g status-right "#[fg=black]%A, %d %b %Y %I:%M %p"
+ #system tmux set -g status-left "#[fg=black]%A, %d %b %Y %I:%M %p"
 }
 #variable {huntmode} {"on"} ;
 
@@ -547,6 +547,7 @@ ansi off;
 
 #VARIABLE {InChess} {1}
 #VARIABLE {bioplasm} {86.18}
+
 
 
 
