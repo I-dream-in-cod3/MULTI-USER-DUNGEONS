@@ -347,6 +347,7 @@ kill en;
     adrenalize on;
     clone;
     = assist;
+    #system tmux set -g status-right "#[fg=black]%A, %d %b %Y %I:%M %p";
 }
 
 #EVENT {SESSION DISCONNECTED}
