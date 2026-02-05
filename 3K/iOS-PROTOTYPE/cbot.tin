@@ -449,7 +449,7 @@ out;
     #nop color;
     #delay {4} {looky};
     tellhist;
-	#system tmux set -g status-right "#[fg=black]%A, %d %b %Y %I:%M %p";
+	#system tmux set -g status-right "#[fg=black]%A, %d %b %Y %I:%M %p";#system tmux tmux set -g status-position top;
 }
 
 #EVENT {SESSION DISCONNECTED}
@@ -548,6 +548,7 @@ ansi off;
 
 #VARIABLE {InChess} {1}
 #VARIABLE {bioplasm} {86.18}
+
 
 
 
