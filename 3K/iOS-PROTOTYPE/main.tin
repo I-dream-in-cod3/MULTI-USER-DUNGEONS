@@ -81,12 +81,12 @@ bio1;
 
 #ALIAS {hm2}
 {
+
     #class hotelmorph kill;
     7w7n;
     7s;
 #untick killzombie;
 #untick tellhist;
-hotel2;
 
 }
 
