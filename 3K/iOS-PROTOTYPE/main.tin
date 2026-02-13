@@ -252,7 +252,7 @@ kill en;
 
 #ALIAS {hotel1}
 {
-	  n;n;10k;s;s;
+	  n;n;withdraw 75 coins;s;s;
     ch1;
     ;enter;3e;2s;2e;s;2w;buy 5;theatre;e;enter;pull rug;n;  
 }
