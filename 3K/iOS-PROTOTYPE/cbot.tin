@@ -5,6 +5,8 @@
 }
 #variable {huntmode} {"on"} ;
 
+
+#nop useless break statements ➔ i need an else statement or something similar 
 #ALIAS {start} {
 
 #if {$huntmode == "off"}{
