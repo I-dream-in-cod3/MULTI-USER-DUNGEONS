@@ -236,7 +236,6 @@ out;
 
 #ALIAS {chesse}
 {
-#variable {InChess} {0};
     n ;
     w ;
     n ;
