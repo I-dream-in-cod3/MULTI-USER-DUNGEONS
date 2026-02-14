@@ -9,7 +9,7 @@
 
 #if {$huntmode == "off"}{
 looky;
- 
+ #break;
 }
 
 ;
@@ -17,7 +17,7 @@ looky;
 {
 
 #showme {huntmode is already turned $huntmode};
-
+#break;
 }
 
 };
@@ -30,12 +30,14 @@ looky;
 untick;
 #showme {huntmode is now turned:$huntmode};
 afk;
+#break;
 }
 ;
 #if {$huntmode == "off"}
 {
 
 #showme {huntmode is already turned $huntmode};
+#break;
 
 }
 
