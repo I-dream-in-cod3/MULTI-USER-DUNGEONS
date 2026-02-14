@@ -236,6 +236,7 @@ out;
 
 #ALIAS {chesse}
 {
+#variable {InChess} {0};
     n ;
     w ;
     n ;
@@ -284,8 +285,10 @@ out;
 
 #ALIAS {bank}
 {
-		stop;
+		
+    stop;
     #unACTION {The Center of Town};
+		#variable {InChess} {0};
 	  chessr;
     #nop east;
 	  #nop go east to make sure not in combat - dont delete save comment for later;
