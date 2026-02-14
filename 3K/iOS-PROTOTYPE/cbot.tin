@@ -290,7 +290,10 @@ out;
 {
 		
     stop;
-    #unACTION {The Center of Town};
+    #ACTION {The Center of Town}
+{
+    #variable {InChess} {0};
+}
 		#variable {InChess} {0};
 	  chessr;
     #nop east;
@@ -298,6 +301,7 @@ out;
     chesse;
 		nn;
 		deposit all;
+#variable {InChess} {0};
 		south;
 		south;
 }
@@ -555,6 +559,7 @@ ansi off;
 
 #VARIABLE {InChess} {1}
 #VARIABLE {bioplasm} {86.18}
+
 
 
 
