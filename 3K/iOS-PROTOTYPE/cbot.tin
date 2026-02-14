@@ -8,8 +8,8 @@
 #ALIAS {start} {
 
 #if {$huntmode == "off"}{
-#variable {huntmode} {"on"};looky;retick;
-#showme {huntmode is now turned:$huntmode}; 
+looky;
+ 
 }
 
 ;
@@ -354,6 +354,7 @@ out;
     #if {$InChess == 1}
     {
      retick;#variable {huntmode} {"on"};kill human;
+		 #showme {huntmode is now turned:$huntmode};
     }
 }
 
