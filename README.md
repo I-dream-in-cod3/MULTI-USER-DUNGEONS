@@ -21,8 +21,8 @@
 ## after cloning
 - set this alias in .bashrc:
   - alias git3k='sudo ./sync-3k-Repo-w-sudo.sh'
-- use cp to copy sync-3k-Repo-w-sudo.sh into git3k directory
-  - ie if user is ubuntu: cp /home/ubuntu/MULTI-USER-DUNGEONS/sync-3k-Repo-w-sudo.sh /home/git3k/
+- use cp to copy sync-3k-Repo-w-sudo.sh from the cloned repo into the root of git3k directory 
+  - ie : cp /home/git3k/MULTI-USER-DUNGEONS/sync-3k-Repo-w-sudo.sh /home/git3k/
   - sudo chmod +x sync-3k-Repo-w-sudo.sh
 - Make file called localpass in git3k directory
 - in git3k directory use git3k command ->> so you can  update local repo or undo local edits at any time
