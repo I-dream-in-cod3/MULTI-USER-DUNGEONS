@@ -7,13 +7,15 @@
   
 # Set up local directory
 - follow basic steps for installing tintin++ on Ubuntu
-- sudo mkdir /home/git3k/
+- Then make this folder
+  - sudo mkdir /home/git3k/
   - Everything must be ran form this directory so set this alias:
     - alias u='cd /home/git3k/'
-- cd /home/git3k/
-- sudo git clone https://github.com/I-dream-in-cod3/MULTI-USER-DUNGEONS.git
+  - go to folder and run these commands
+    - cd /home/git3k/
+    - sudo git clone https://github.com/I-dream-in-cod3/MULTI-USER-DUNGEONS.git
 - give folder ownership too: sudo chown username /home/git3k/
-- also give files ownership too: sudo chown $USER filename
+- also give files ownership too: sudo chown $USER filename (might be redundant)
  
 
 
