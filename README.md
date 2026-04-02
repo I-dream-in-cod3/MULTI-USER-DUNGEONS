@@ -14,7 +14,7 @@
   - go to folder and run these commands
     - cd /home/git3k/
     - sudo git clone https://github.com/I-dream-in-cod3/MULTI-USER-DUNGEONS.git
-- give folder ownership too: sudo chown username /home/git3k/
+- give folder ownership too: sudo chown $USER /home/git3k/
 - also give files ownership too: sudo chown $USER filename (might be redundant)
  
 
