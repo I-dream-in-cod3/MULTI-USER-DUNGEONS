@@ -31,7 +31,7 @@ looky;
 
 				}
 
-};
+}
 
 #ALIAS {stop} {
 
@@ -55,7 +55,7 @@ afk;
 
 
 
-};
+}
 #ALIAS {mm} {start};
 #ALIAS {mmm} {\mm};
 
