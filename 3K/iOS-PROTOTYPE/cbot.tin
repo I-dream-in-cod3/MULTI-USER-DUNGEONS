@@ -20,7 +20,8 @@ looky;
 }
 
 
-
+	#else
+    	{
        
     
 				#if {$huntmode == "on"}
@@ -30,7 +31,7 @@ looky;
 				#break;
 
 				}
-
+		
 }
 
 #ALIAS {stop} {
@@ -45,6 +46,8 @@ afk;
 #break;
 }
 
+	#else
+    	{
 				#if {$huntmode == "off"}
 				{
 				
@@ -52,7 +55,7 @@ afk;
 				#break;
 				
 				}
-
+		}
 
 
 }
