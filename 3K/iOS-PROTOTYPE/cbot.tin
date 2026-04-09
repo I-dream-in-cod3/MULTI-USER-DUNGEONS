@@ -19,13 +19,17 @@ looky;
  #break;
 }
 
-;
-#if {$huntmode == "on"}
-{
 
-#showme {huntmode is already turned $huntmode};
-#break;
-}
+
+       
+    
+				#if {$huntmode == "on"}
+				{
+				
+				#showme {huntmode is already turned $huntmode};
+				#break;
+
+				}
 
 };
 
@@ -33,20 +37,22 @@ looky;
 
 #if {$huntmode == "on"}
 {
+
 #variable {huntmode} {"off"};
 untick;
 #showme {huntmode is now turned:$huntmode};
 afk;
 #break;
 }
-;
-#if {$huntmode == "off"}
-{
 
-#showme {huntmode is already turned $huntmode};
-#break;
+				#if {$huntmode == "off"}
+				{
+				
+				#showme {huntmode is already turned $huntmode};
+				#break;
+				
+				}
 
-}
 
 
 };
