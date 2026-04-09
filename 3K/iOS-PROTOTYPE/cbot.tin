@@ -14,7 +14,7 @@
 
 #ALIAS {start} {
 
-#if {$huntmode == "off"}{
+#if {$huntmode == "off"} {
 looky;
  #break;
 }
