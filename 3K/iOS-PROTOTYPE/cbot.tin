@@ -7,58 +7,44 @@
 
 
 #nop useless break statements ➔ i need an else statement or something similar 
-#nop i do not remember what the previous line above^^ refers to maybe it's the cause of the missing semi colon warning
-
-
-
-
 #ALIAS {start} {
 
-#if {$huntmode == "off"} {
+#if {$huntmode == "off"}{
 looky;
  #break;
 }
 
+;
+#if {$huntmode == "on"}
+{
 
-	#else
-    	{
-       
-    
-				#if {$huntmode == "on"}
-				{
-				
-				#showme {huntmode is already turned $huntmode};
-				#break;
-
-				}
-		
+#showme {huntmode is already turned $huntmode};
+#break;
 }
+
+};
 
 #ALIAS {stop} {
 
 #if {$huntmode == "on"}
 {
-
 #variable {huntmode} {"off"};
 untick;
 #showme {huntmode is now turned:$huntmode};
 afk;
 #break;
 }
+;
+#if {$huntmode == "off"}
+{
 
-	#else
-    	{
-				#if {$huntmode == "off"}
-				{
-				
-				#showme {huntmode is already turned $huntmode};
-				#break;
-				
-				}
-		}
-
+#showme {huntmode is already turned $huntmode};
+#break;
 
 }
+
+
+};
 #ALIAS {mm} {start};
 #ALIAS {mmm} {\mm};
 
@@ -573,7 +559,6 @@ ansi off;
 
 #VARIABLE {InChess} {1}
 #VARIABLE {bioplasm} {86.18}
-
 
 
 
