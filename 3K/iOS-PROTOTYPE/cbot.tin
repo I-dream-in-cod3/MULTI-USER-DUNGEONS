@@ -1,8 +1,11 @@
 #nop
+
 #alias {time}
 {
  #system tmux set -g status-right "#[fg=black]%A, %d %b %Y %I:%M %p"
+ #nop tmux set -g status-right "#[fg=black]%A, %d %b %Y %I:%M %p";#system tmux set -g status-position bottom;
 }
+
 #variable {huntmode} {"on"} ;
 
 
