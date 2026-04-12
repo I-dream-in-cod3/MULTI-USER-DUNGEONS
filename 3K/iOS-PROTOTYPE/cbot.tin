@@ -1,5 +1,21 @@
 #nop
 
+#alias{top}
+{
+
+#system tmux set -g status-right "#[fg=black]%A, %d %b %Y %I:%M %p";#system tmux set -g status-position top;
+
+}
+
+
+#alias{bottom}
+{
+
+#system tmux set -g status-right "#[fg=black]%A, %d %b %Y %I:%M %p";#system tmux set -g status-position bottom;
+
+}
+
+
 #alias {time}
 {
  #system tmux set -g status-right "#[fg=black]%A, %d %b %Y %I:%M %p"
