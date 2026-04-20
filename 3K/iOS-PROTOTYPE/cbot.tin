@@ -75,9 +75,7 @@ afk;
 
 #ACTION {The Void (out)}
 {
-#variable {InChess} {0};
-stop;
-out;
+#zap
 } 
 
 #nop {
