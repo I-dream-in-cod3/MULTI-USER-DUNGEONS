@@ -1,5 +1,11 @@
 #nop
 
+
+
+#sub {You <SMASH> your left foot} {You <SMASH> your left fist}
+
+#sub {You <SMASH> your right foot} {You <SMASH> your right fist}
+
 #alias {top}
 {
 
