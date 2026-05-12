@@ -58,7 +58,7 @@ looky;
 #ALIAS {stop} {
 
 #UNACTION {You cannot go east\.}
-
+#untick tellhist;
 
 #if {$huntmode == "on"}
 {
