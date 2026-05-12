@@ -64,6 +64,17 @@ untick;
 #showme {huntmode is now turned:$huntmode};
 afk;
 #break;
+#UNACTION {You cannot go east\.}
+{
+    w ;
+    w ;
+    w ;
+    w ;
+    w ;
+    w ;
+    w ;
+    s
+}
 }
 ;
 #if {$huntmode == "off"}
@@ -393,6 +404,17 @@ afk;
     #if {$InChess == 1}
     {
      retick;#variable {huntmode} {"on"};kill human;
+		 #ACTION {You cannot go east\.}
+{
+    w ;
+    w ;
+    w ;
+    w ;
+    w ;
+    w ;
+    w ;
+    s
+}
 		 #showme {huntmode is now turned:$huntmode};
     }
 }
