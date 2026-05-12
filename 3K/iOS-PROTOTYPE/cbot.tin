@@ -66,18 +66,8 @@ looky;
 untick;
 #showme {huntmode is now turned:$huntmode};
 afk;
-#break;
-
+#nop break;
 }
-;
-#if {$huntmode == "off"}
-{
-
-#showme {huntmode is already turned $huntmode};
-#break;
-
-}
-
 
 };
 #ALIAS {mm} {start};
@@ -211,7 +201,7 @@ afk;
     w ;
     w ;
     s
-}
+} {1}
 
 #ACTION {You have {.*}\% of your max bioplasm in storage.}
 {
@@ -407,7 +397,7 @@ afk;
     w ;
     w ;
     s
-}
+} {1}
 		 #showme {huntmode is now turned:$huntmode};
     }
 }
