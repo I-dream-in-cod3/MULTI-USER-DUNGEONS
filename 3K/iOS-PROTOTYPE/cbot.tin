@@ -57,6 +57,9 @@ looky;
 
 #ALIAS {stop} {
 
+#UNACTION {You cannot go east\.}
+
+
 #if {$huntmode == "on"}
 {
 #variable {huntmode} {"off"};
@@ -64,7 +67,7 @@ untick;
 #showme {huntmode is now turned:$huntmode};
 afk;
 #break;
-#UNACTION {You cannot go east\.}
+
 }
 ;
 #if {$huntmode == "off"}
