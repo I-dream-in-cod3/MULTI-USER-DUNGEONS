@@ -75,6 +75,7 @@ afk;
 
 #ACTION {The Void (out)}
 {
+out;
 #zap
 } 
 
