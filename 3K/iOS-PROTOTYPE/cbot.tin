@@ -328,7 +328,7 @@ out;
 #variable {InChess} {0};
 		south;
 		south;
-    #zap;
+    
 }
 
 #ALIAS {chessr}
