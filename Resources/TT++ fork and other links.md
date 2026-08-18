@@ -10,7 +10,6 @@
 
 
 # Inix
-- https://github.com/Inix3K/TinTin/tree/master/3k/bots
 - https://github.com/Inix3K/TinTin
 
 
