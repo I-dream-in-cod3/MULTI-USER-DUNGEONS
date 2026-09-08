@@ -320,7 +320,7 @@ stop;
 #variable {InChess} {0};
 	  #delay {2} {south};
 		#delay {2} {south};
-	#delay {2} {#ZAP};
+	#delay {2} {#look};
     
 }
 
