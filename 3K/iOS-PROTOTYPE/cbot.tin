@@ -299,7 +299,7 @@ out;
 #ALIAS {quit}
 {
 stop;
-\quit};
+\quit;
 }
 
 #ALIAS {bank}
