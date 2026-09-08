@@ -298,10 +298,8 @@ out;
 
 #ALIAS {quit}
 {
-		stop;
-
-		#delay {2} {\quit};
-
+stop;
+\quit};
 }
 
 #ALIAS {bank}
