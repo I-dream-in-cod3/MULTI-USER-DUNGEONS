@@ -313,15 +313,15 @@ out;
     #variable {InChess} {0};
 }
 		#variable {InChess} {0};
-	  chessr;
+	  #delay {2} {chessr};
     #nop east;
 	  #nop go east to make sure not in combat - dont delete save comment for later;
-    chesse;
-		nn;
+    #delay {2} {chesse};
+		#delay {2} {nn};
 		deposit all;
 #variable {InChess} {0};
-		south;
-		south;
+	  #delay {2} {south};
+		#delay {2} {south};
 	#ZAP;
     
 }
