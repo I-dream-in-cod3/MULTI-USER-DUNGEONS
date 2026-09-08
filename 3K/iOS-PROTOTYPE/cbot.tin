@@ -311,7 +311,7 @@ out;
     #ACTION {The Center of Town}
 {
     #variable {InChess} {0};
-}
+} {1};
 		#variable {InChess} {0};
 	  #delay {2} {chessr};
     #nop east;
