@@ -321,7 +321,6 @@ stop;
 	  #delay {2} {south};
 		#delay {2} {south};
 	#delay {2} {#look};
-    
 }
 
 #ALIAS {chessr}
@@ -489,7 +488,8 @@ stop;
     #nop color;
     #delay {4} {looky};
     tellhist;
-	#system tmux set -g status-right "#[fg=black]%A, %d %b %Y %I:%M %p";#system tmux set -g status-position top;
+	bottom;
+	
 }
 
 #EVENT {SESSION DISCONNECTED}
