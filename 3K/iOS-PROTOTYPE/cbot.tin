@@ -318,11 +318,11 @@ out;
 	  #nop go east to make sure not in combat - dont delete save comment for later;
     #delay {2} {chesse};
 		#delay {2} {nn};
-		deposit all;
+		#delay {2} {deposit all};
 #variable {InChess} {0};
 	  #delay {2} {south};
 		#delay {2} {south};
-	#ZAP;
+	#delay {2} {#ZAP};
     
 }
 
