@@ -259,7 +259,7 @@ out;
     n ;
     n ;
     n ;
-    kill human
+    
 }
 
 #ALIAS {chesse}
