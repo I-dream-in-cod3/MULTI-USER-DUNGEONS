@@ -523,7 +523,7 @@ stop;
 #HIGHLIGHT {Tell history:} {Yellow reverse underscore} {5} 
 #HIGHLIGHT {No tell history.} {Reverse blink underscore} {5}
 #highlight {{[0-9][0-9]:[0-9][0-9]}} {yellow} ; #nop highlight each timestamp for tells
-#action {%1 tells you: %2} {#var {lasttell} {'%2'};#showme $lasttell ;#system echo "%1:$lasttell $(date +%m-%d-%Y" "%r)" >> Last_Tell.tin};
+#action {%1 tells you: %2} {#var {lasttell} {'%2'};#showme $lasttell ;#system echo "%1:$lasttell $(date +%m-%d-%Y" "%r)" >> Last_Tell.tin ;#system tailscale file cp Last_Tell.tin desktop-24qjkn1:};
 #NOP added extra ">" to append rather than replace the last message
 
 #nop alias to undo highlights ->> be more retro ;
